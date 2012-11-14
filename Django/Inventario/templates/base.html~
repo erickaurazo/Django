@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//ES" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Gestion del Inventario Informático</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="/site_media/default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="">Gesti&oacute;n</a></h1>
+			<h2>Informaci&oacute;n del Inventario</h2>
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="/">Inicio</a></li>
+				<li><a href="/">Mantenimiento</a></li>
+				<li><a href="/">Reportes</a></li>			
+				<li><a href="/">Salir</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="content">
+				{% if nombreCategoria %}
+				<div class="post">
+				<h2 class="title"><a href="#">{{nombreCategoria}}</a></h2>
+					{% for tipo in tipos %}
+						<h3><a href="/tipo/{{ tipo.id }}">{{tipo.nombre}}</a></h3>
+					{% endfor %}
+				</div>
+				{% endif %}
+				{% if nombreTipo %}
+				<div class="post">
+				<h2 class="title"><a href="#">{{nombreTipo}}</a></h2>
+					{% for detalle in detalles %}
+						<h3>{{detalle.fechaCompra}}, {{detalle.marca}} </h3>
+					{% endfor %}
+				</div>
+				{% endif %}
+			</div>
+			<div id="sidebar">
+				<ul>
+					<li>
+						<h2>Categorias</h2>
+						<ul>
+							{% if categorias %}
+								{% for categoria in categorias %}
+								<li><a href="/categoria/{{ categoria.id }}">{{categoria.nombre}}</a></li>
+								{% endfor %}
+							{% else %}
+								<li>Vac&iacute;o</p>
+							{% endif %}
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div style="clear: both; height: 1px"></div>
+		</div>
+	</div>
+</div>
+	<div id="footer">
+		<p id="legal">Gesti&oacute;n y Mantenimiento de Reportes</p>
+
+	</div>
+</body>
+</html>

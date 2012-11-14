@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1FC70C35-3099-4DC6-9676-C3BF87DB16E5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Matricula.Presentacion.FrmMenu</StartupObject>
+    <RootNamespace>Matricula.Presentacion</RootNamespace>
+    <AssemblyName>Matricula.Presentacion</AssemblyName>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Matricula.Presentacion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Matricula.Presentacion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cr_FichaMatricula.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Cr_FichaMatricula.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DsFichaMatricula.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsFichaMatricula.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBuscarEstudiante.Designer.vb">
+      <DependentUpon>FrmBuscarEstudiante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBuscarEstudiante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCurso.Designer.vb">
+      <DependentUpon>FrmCurso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCurso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFichaMatricula.Designer.vb">
+      <DependentUpon>FrmFichaMatricula.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFichaMatricula.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMatricula.Designer.vb">
+      <DependentUpon>FrmMatricula.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMatricula.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEspecialidad.Designer.vb">
+      <DependentUpon>FrmEspecialidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEspecialidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenu.Designer.vb">
+      <DependentUpon>FrmMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModulo.Designer.vb">
+      <DependentUpon>FrmModulo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmModulo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Validar.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cr_FichaMatricula.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Cr_FichaMatricula.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBuscarEstudiante.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmBuscarEstudiante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCurso.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmCurso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFichaMatricula.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmFichaMatricula.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMatricula.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMatricula.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEspecialidad.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmEspecialidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenu.resx">
+      <DependentUpon>FrmMenu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModulo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmModulo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Registro_Matricular.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Registro_Estudiante.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salir2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Matricular.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reservar4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Anular_Matricula.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inscripcion_estado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Matricula.AccesoDatos\Matricula.AccesoDatos.vbproj">
+      <Project>{D4787A87-7BB4-4D64-A6D0-338A191B4AB5}</Project>
+      <Name>Matricula.AccesoDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Matricula.LogicaNegocio\Matricula.LogicaNegocio.vbproj">
+      <Project>{B498D372-35F3-405A-9389-30EB43F4EE18}</Project>
+      <Name>Matricula.LogicaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuevo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\datele.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inhabilitado.jpg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\habilitaDO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.j2pg.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\listar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Anular_Matricula1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\matricula.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DsFichaMatricula.xsc">
+      <DependentUpon>DsFichaMatricula.xsd</DependentUpon>
+    </None>
+    <None Include="DsFichaMatricula.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsFichaMatricula.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DsFichaMatricula.xss">
+      <DependentUpon>DsFichaMatricula.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Actualizar3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imprimir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inicio Sesiion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\untitled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reporte.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pagos.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,185 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<p>&nbsp;</p>
+		<table border='1' align='center' cellpadding='2' cellspacing='2'>
+      		<thead>
+
+      		<tr>
+			<th rowspan='2' align='center'> <img class="" src="/home/erick/Django/proyecto/hidrologia/nuevo.jpg" ></img> </th>
+		        <th colspan='6'><h2 align='center'> <strong> JUNTA DE USUARIOS </strong> <br/>
+		        <strong>  CHANCAY-LAMBAYEQUE </strong> </h2></th>
+      		</tr>
+
+
+      		<tr>
+		       	<th colspan='2' >Radiograma: &nbsp;&nbsp;&nbsp; {{ numero_radiograma }} </th>
+		        <th colspan='4' >Fecha: &nbsp;&nbsp;&nbsp;{{ fecha }} </th>
+      		</tr>
+
+      		
+		<tr>
+		        <th rowspan ='2' nowrap ='nowrap' > <strong> HIDROMETRIA DEL SISTEMA </strong> </th>
+		        <th colspan='4' align='center'> <p><strong> Datos del d&iacute;a anterior (m3/seg.) </strong> </p></th>
+		        <th colspan='2' align='center'> <p><strong> Datos del d&iacute;a (m3/seg.) </strong> </p></th>
+		</tr>
+
+      
+		<tr>
+		        <th align='center'> <p><strong> 12 Horas </strong> </p></th>
+        		<th align='center'> <p><strong> 18 Horas </strong> </p></th>
+		        <th align='center'> <p><strong> 24 Horas </strong> </p></th>
+		        <th align='center'> <p><strong> Promedio </strong> </p></th>
+		        <th align='center'> <p><strong> 06 Horas </strong> </p></th>
+		        <th align='center'> <p><strong> 08 Horas </strong> </p></th>
+		</tr>
+      		</thead>
+	<tbody>
+
+		<tr>
+		      	<th nowrap ='nowrap'> <p align="left"><strong> R&Iacute;O CHANCAY </strong> </p></th>
+		        <td align='right'> {{ promedio_chancay_hora_12 }} </td>
+	        	<td align='right'> {{ promedio_chancay_hora_18 }} </td>
+		        <td align='right'> {{ promedio_chancay_hora_24 }} </td>
+	        	<td align='right'> {{ promedio_Chancay }} </td>
+		        <td align='right'> {{ promedio_chancay_hora_06 }} </td>
+	        	<td align='right'> {{ medida_chancay_hora_08 }} </td>
+		</tr>
+
+
+		
+		<tr>
+		        <td nowrap ='nowrap'> <p align="left"><strong> CANAL ALIMENTADOR </strong> </p></td>
+		        <td align='right'>{{ promedio_alimentador_hora_12 }}</td>
+	        	<td align='right'>{{ promedio_alimentador_hora_18 }}</td>
+		        <td align='right'>{{ promedio_alimentador_hora_24 }}</td>
+		        <td align='right'>{{ promedio_alimentador }}</td>
+		        <td align='right'>{{ promedio_alimentador_hora_06 }}</td>
+		        <td align='right'>{{ medida_alimentador_hora_08 }}</td>
+	  </tr>
+
+
+
+		<tr>
+		        <td nowrap ='nowrap'> <p align="left"><strong>  COMPUERTA DE R&Iacute;O </strong> </p></td>
+		        <td align='right'>{{ promedio_compuerta_hora_12 }}</td>
+		        <td align='right'>{{ promedio_compuerta_hora_18 }}</td>
+		        <td align='right'>{{ promedio_compuerta_hora_24 }}</td>
+		        <td align='right'>{{ promedio_compuerta }}</td>
+		        <td align='right'>{{ promedio_compuerta_hora_06 }}</td>
+		        <td align='right'>{{ medida_compuerta_hora_08 }}</td>
+	  </tr>
+
+
+
+		<tr>
+		        <td nowrap ='nowrap'> <p align="left"><strong> CANAL DE DESCARGA </strong> </p></td>
+		        <td align='right'>{{ promedio_descarga_hora_12 }}</td>
+		        <td align='right'>{{ promedio_descarga_hora_18 }}</td>
+		        <td align='right'>{{ promedio_descarga_hora_24 }}</td>
+		        <td align='right'>{{ promedio_descarga }}</td>
+		        <td align='right'>{{ promedio_descarga_hora_06 }}</td>
+    			<td align='right'>{{ medida_descarga_hora_08 }}</td>
+	  </tr>
+
+
+
+		<tr>
+		        <td nowrap ='nowrap'> <p align="left"><strong> CIRCULANTE AL VALLE </strong> </p></td>
+		        <td align='right'>{{ promedio_circulante_hora_12 }}</td>
+		        <td align='right'>{{ promedio_circulante_hora_18 }}</td>
+      			<td align='right'>{{ promedio_circulante_hora_24 }}</td>
+		        <td align='right'>{{ promedio_circulante }}</td>
+		        <td align='right'>{{ promedio_circulante_hora_06 }}</td>
+		        <td align='right'>{{ medida_circulante_hora_08 }}</td>
+	  </tr>
+
+
+
+		<tr>
+			<td nowrap ='nowrap'> <p align="left"><strong> APORTE DE QUEBRADAS </strong> </p></td>
+			<td align='right'>{{ promedio_aporte_hora_12 }}</td>
+		        <td align='right'>{{ promedio_aporte_hora_18 }}</td>
+		        <td align='right'>{{ promedio_aporte_hora_24 }}</td>
+		        <td align='right'>{{ promedio_aporte }}</td>
+		        <td align='right'>{{ promedio_aporte_hora_06 }}</td>
+		        <td align='right'>{{ medida_aporte_hora_08 }}</td>
+	  </tr>
+		
+
+		<tr>
+			<td nowrap ='nowrap'> <p align="left">EXCESOS AL MAR <br/>
+			(Bocatoma-Monsef&uacute;-Reque)</p></td>
+		        <td align='right'>{{ promedio_exceso_hora_12 }}</td>
+		        <td align='right'>{{ promedio_exceso_hora_18 }}</td>
+		        <td align='right'>{{ promedio_exceso_hora_24 }}</td>
+		        <td align='right'>{{ promedio_exceso }}</td>
+		        <td align='right'>{{ promedio_exceso_hora_06 }}</td>
+		        <td align='right'>{{ medida_exceso_hora_08 }}</td>
+	  </tr>
+
+		
+		<tr>
+		        <td rowspan='2' nowrap ='nowrap'><p align="left">RESERVORIO TINAJONES</p></td>
+		        <td colspan='2'><strong>Volumen(m3):</strong>&nbsp;&nbsp;&nbsp;{{ reservorio_volumen }}</td>
+		        <td colspan='2'><strong>COTA(msnm):</strong>&nbsp;&nbsp;{{ reservorio_cota }}</td>
+		        <td colspan='2'><strong>Perdidas:</strong>&nbsp;&nbsp;&nbsp;{{ reservorio_perdidas }} &nbsp;&nbsp;  m3</td>
+	  </tr>
+
+		
+
+		<tr>
+        		<td  colspan='2'><strong>Evaporaci&oacute;n(mm):</strong>&nbsp;&nbsp;&nbsp;{{ reservorio_evaporacion }}</td>
+		        <td> <strong>T.Max: </strong>&nbsp;{{ reservorio_temperatura_maxima }} &nbsp;&deg; C</td>
+		        <td> <strong>T.Min:</strong>&nbsp;{{ reservorio_temperatura_minima }} &nbsp;&deg; C</td>
+		        <td> <strong>H.R: </strong>&nbsp;{{ reservorio_humedad_relativa }}  &nbsp;%</td>
+		        <td> <strong>PP: </strong>&nbsp;{{ reservorio_precipitacion }} &nbsp;mm</td>
+		</tr>
+
+
+
+
+		<tr>
+			<th nowrap ='nowrap'> <p align="left">DESCARGA RIO CHANCAY</p></th>
+			<td colspan='3'> <strong> M&aacute;xima: </strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ max_chancay }} m3/seg &nbsp; &nbsp; &nbsp; &nbsp;{{ max_chancay_hora }}</td>
+        		<td colspan='3'><strong>M&iacute;nima:</strong>&nbsp;&nbsp;&nbsp;&nbsp;{{ min_chancay }} m3/seg &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ min_chancay_hora }} </td>
+		</tr>
+
+
+
+                <tr>
+                        <th nowrap ='nowrap' ><p align="left">DESCARGA RIO CONCHANO</p></th>
+                        <td colspan='2'> <strong>Promedio:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ trasvase_tunel_chonchano }} &nbsp;m3/seg</td>
+                        <td colspan='2'> <strong>06:00 Horas</strong>&nbsp;&nbsp;&nbsp;&nbsp;{{ chonchano_seis_horas }} &nbsp;m3/seg</td>
+                        <td colspan='2'> <strong>Est. Tiempo:</strong> &nbsp;&nbsp; {{ chotano_estado_tiempo }} &nbsp;&nbsp;{{ reservorio_hora_precipitacion }}</td>
+                </tr>
+
+
+                <tr>
+                    <th rowspan='2' nowrap ='nowrap'> <p align="left">DESCARGA RIO CHOTANO </p></th>
+                    <td colspan='2'> <strong>Promedio:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ trasvase_tunel_chotano }} &nbsp; m3/seg</td>
+                    <td colspan='2'> <strong>06:00 Horas</strong>&nbsp;&nbsp;&nbsp;&nbsp; {{ chotano_seis_horas }} &nbsp;m3/seg</td>
+                    <td colspan='2'> <strong>Hum.Relat: </strong>&nbsp;&nbsp;&nbsp; {{ chotano_humedad_relativa }} &nbsp; %</td>
+                </tr>
+
+
+
+
+                <tr>
+                    <td colspan='2'><strong>Temp.Max.: </strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ chotano_temperatura_maxima }} &nbsp;&deg;C </td>
+                    <td colspan='2'><strong>Temp.Min:</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ chotano_temperatura_mimino }} &nbsp;&deg;C</td>
+                    <td colspan='2'><strong>Prec.Pluv:</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{ chotano_precipitacion }} &nbsp;mm &nbsp;&nbsp;&nbsp;{{ chotano_precipitacion_hora }} </td>
+                </tr>
+
+
+
+                <tr>
+                    <th nowrap ='nowrap'> <p align="left">OBSERVACIONES </p></th>
+                    <td colspan='6'> {{ observacion }}</td>
+                </tr>
+
+          </tbody>
+	</table>
+	</body>
+</html>

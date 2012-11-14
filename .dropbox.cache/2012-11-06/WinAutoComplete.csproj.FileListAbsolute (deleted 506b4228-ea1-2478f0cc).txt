@@ -1,0 +1,31 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\WinAutoComplete\WinAutoComplete\bin\Debug\WinAutoComplete.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\WinAutoComplete\WinAutoComplete\bin\Debug\WinAutoComplete.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\WinAutoComplete\WinAutoComplete\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\WinAutoComplete\WinAutoComplete\obj\Debug\WinAutoComplete.Form1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\WinAutoComplete\WinAutoComplete\obj\Debug\WinAutoComplete.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\WinAutoComplete\WinAutoComplete\obj\Debug\WinAutoComplete.csproj.GenerateResource.Cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\WinAutoComplete\WinAutoComplete\obj\Debug\WinAutoComplete.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\WinAutoComplete\WinAutoComplete\obj\Debug\WinAutoComplete.pdb
+C:\Desarrollo\Blog\C# - AutoComplete\WinAutoComplete\WinAutoComplete\obj\Debug\WinAutoComplete.exe
+C:\Desarrollo\Blog\C# - AutoComplete\WinAutoComplete\WinAutoComplete\obj\Debug\WinAutoComplete.pdb
+C:\Desarrollo\Blog\C# - AutoComplete\WinAutoComplete\WinAutoComplete\bin\Debug\WinAutoComplete.exe.config
+C:\Desarrollo\Blog\C# - AutoComplete\WinAutoComplete\WinAutoComplete\bin\Debug\AutoCompleteDB.sdf
+C:\Desarrollo\Blog\C# - AutoComplete\WinAutoComplete\WinAutoComplete\bin\Debug\WinAutoComplete.exe
+C:\Desarrollo\Blog\C# - AutoComplete\WinAutoComplete\WinAutoComplete\bin\Debug\WinAutoComplete.pdb
+C:\Desarrollo\Blog\C# - AutoComplete\WinAutoComplete\WinAutoComplete\obj\Debug\ResolveAssemblyReference.cache
+C:\Desarrollo\Blog\C# - AutoComplete\WinAutoComplete\WinAutoComplete\obj\Debug\WinAutoComplete.Properties.Resources.resources
+C:\Desarrollo\Blog\C# - AutoComplete\WinAutoComplete\WinAutoComplete\obj\Debug\WinAutoComplete.csproj.GenerateResource.Cache
+C:\Desarrollo\Blog\C# - AutoComplete\WinAutoComplete\WinAutoComplete\obj\Debug\WinAutoComplete.AutoCompleteComboBox.resources
+C:\Desarrollo\Blog\C# - AutoComplete\WinAutoComplete\WinAutoComplete\obj\Debug\WinAutoComplete.AutoCompleteTextbox.resources
+C:\Users\henry.ruiz\Desktop\erick\WinAutoComplete\WinAutoComplete\bin\Debug\WinAutoComplete.exe.config
+C:\Users\henry.ruiz\Desktop\erick\WinAutoComplete\WinAutoComplete\obj\Debug\WinAutoComplete.exe
+C:\Users\henry.ruiz\Desktop\erick\WinAutoComplete\WinAutoComplete\obj\Debug\WinAutoComplete.pdb
+C:\Users\henry.ruiz\Desktop\erick\WinAutoComplete\WinAutoComplete\bin\Debug\AutoCompleteDB.sdf
+C:\Users\henry.ruiz\Desktop\erick\WinAutoComplete\WinAutoComplete\bin\Debug\WinAutoComplete.exe
+C:\Users\henry.ruiz\Desktop\erick\WinAutoComplete\WinAutoComplete\bin\Debug\WinAutoComplete.pdb
+C:\Users\henry.ruiz\Desktop\erick\WinAutoComplete\WinAutoComplete\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\henry.ruiz\Desktop\erick\WinAutoComplete\WinAutoComplete\obj\Debug\WinAutoComplete.AutoCompleteComboBox.resources
+C:\Users\henry.ruiz\Desktop\erick\WinAutoComplete\WinAutoComplete\obj\Debug\WinAutoComplete.AutoCompleteTextbox.resources
+C:\Users\henry.ruiz\Desktop\erick\WinAutoComplete\WinAutoComplete\obj\Debug\WinAutoComplete.Properties.Resources.resources
+C:\Users\henry.ruiz\Desktop\erick\WinAutoComplete\WinAutoComplete\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\henry.ruiz\Desktop\erick\WinAutoComplete\WinAutoComplete\obj\Debug\GenerateResource-ResGen.write.1.tlog

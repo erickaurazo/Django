@@ -1,0 +1,59 @@
+    exec cp_registrocompras_2008 '001' , '201209' , '201209' , 'C', 'N'
+
+
+Mes de Operación					CMES
+Cod  Operación						CNUMREGOPE
+Emision del Comprobante					CFECCOM
+Vencimiento comprobante					CFECVENPAG
+Tipo de Comprobante					CTIPDOCCOM
+S/N Comprobante						CNUMSER
+Anio de emision DUA					CEMIDUADSI
+# Comprobante Inicial					CNUMDCODFV
+# Ultimo de comprobante					COSDREFIS
+Tipo Doc. de Identidad Proveedor			CTIDIDPRO
+RUC o DNI						CNUMDIDPRO
+Razón social						CNOMRSOPRO
+Base Impositiva ope. gravadas Credito Fiscal		CBASIMPGRA	
+IGV/IPM Grabadas/					CIGVGRA
+Base adquisiciones gravadas				CBASIMPGNG
+IGV/IPM Grabadas/NoGrabadas				CIGVGRANGV
+Base Impositiva ope. gravadas No Credito Fiscal		CBASIMPSCF
+IGV/IPM operaciones No Credito Fiscal			CIGVSC
+Valor adquisiciones no grabadas				CIMPTOTNGV
+Impuesto Selectivo al consumo				CISC
+Otros tributos						COTRTRICGO
+Importe total adquisiciones				CIMPTOTCOM
+Tipo de Cambio						CTIPCAM
+Fecha de Emision Comprobante				CFECMOD
+Tipo Comprobante Modificado				CTIPDOCMOD
+# Serie de Comp. Modificado				CNUMSERMOD
+# Comprobante Modificado				CNUMDOCMOD
+# Comprobante Sujeto no domiciliado			CCOMNODOMI
+Fecha de emisión Detracción				CEMIDEPDET
+# constancia detracción					CNUMCONDET
+Marca Comprobante Sujeto detracción			CCOMPGORET
+Cod. Interno Operación					CINTDIMAY
+Cod. Interno KARDEX					CINTKARDEX
+Cod. Interno en Modulos					CINTREG
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

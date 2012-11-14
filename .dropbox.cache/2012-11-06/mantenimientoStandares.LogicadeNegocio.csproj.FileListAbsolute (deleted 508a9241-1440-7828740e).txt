@@ -1,0 +1,36 @@
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.LogicadeNegocio.exe
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.LogicadeNegocio.pdb
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.AccesoaDatos.exe
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.Entidades.exe
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.AccesoaDatos.pdb
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.Entidades.pdb
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\obj\x86\Debug\mantenimientoStandares.LogicadeNegocio.exe
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\obj\x86\Debug\mantenimientoStandares.LogicadeNegocio.pdb
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.LogicadeNegocio.exe
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.LogicadeNegocio.pdb
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.AccesoaDatos.exe
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.Entidades.exe
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.AccesoaDatos.pdb
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.Entidades.pdb
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\obj\x86\Debug\mantenimientoStandares.LogicadeNegocio.exe
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\obj\x86\Debug\mantenimientoStandares.LogicadeNegocio.pdb
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.LogicadeNegocio.exe
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.LogicadeNegocio.pdb
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.AccesoaDatos.exe
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.Entidades.exe
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.AccesoaDatos.pdb
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.Entidades.pdb
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\obj\x86\Debug\mantenimientoStandares.LogicadeNegocio.exe
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\obj\x86\Debug\mantenimientoStandares.LogicadeNegocio.pdb
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.LogicadeNegocio.exe
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.LogicadeNegocio.pdb
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.AccesoaDatos.exe
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.Entidades.exe
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.AccesoaDatos.pdb
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\bin\Debug\mantenimientoStandares.Entidades.pdb
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\obj\x86\Debug\mantenimientoStandares.LogicadeNegocio.exe
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.LogicadeNegocio\obj\x86\Debug\mantenimientoStandares.LogicadeNegocio.pdb

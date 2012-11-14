@@ -1,0 +1,403 @@
+# -*- encoding: utf-8 -*-
+from django.db import models
+import calendar
+from datetime import datetime, timedelta
+from django.contrib.auth.models import User
+from forms import *
+
+class Parametro(models.Model):
+    nombre = models.CharField(max_length=50, verbose_name="Nombre", unique=True)
+    activo = models.BooleanField(default=True, verbose_name="¿Activo?")
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name="Fecha de registro")
+    updated_at = models.DateTimeField(auto_now=True, verbose_name="Fecha de actualización")
+    ip_address = models.IPAddressField()
+    host_name = models.CharField(max_length=50)
+    user = models.ForeignKey(User) 
+
+    def __unicode__(self):
+	return self.nombre
+
+    class Meta:
+ 	permissions = (
+            ("activar_parametro", "Poder activar parámetros"),
+            ("desactivar_parametro", "Poder desactivar parámetros"),
+        )
+        db_table = u'parametro'
+	ordering = ['-created_at']
+	verbose_name = "Parámetro"
+        verbose_name_plural = "Parámetros"
+
+
+class Radiograma(models.Model):
+	fecha = models.DateField(null=True, blank=True, verbose_name="Fecha", unique=True)
+	numero = models.IntegerField(null=True, blank=True, verbose_name="Número", unique=True)
+	reservorio_volumen = models.FloatField(null=True, blank=True, verbose_name="Volumen del Reservorio")
+	reservorio_cota = models.FloatField(null=True, blank=True, verbose_name="COTA")
+	reservorio_humedad_relativa = models.FloatField(null=True, blank=True, verbose_name="Humedad relativa")
+	reservorio_temperatura_maxima = models.FloatField(null=True, blank=True, verbose_name="Temperatura Máxima del Reservorio")
+	reservorio_temperatura_minima = models.FloatField(null=True, blank=True, verbose_name="Temperatura Mínima del Reservorio")
+	reservorio_evaporacion = models.FloatField(null=True, blank=True, verbose_name="Evaporación en el Reservorio")
+	reservorio_precipitacion = models.FloatField(null=True, blank=True, verbose_name="Precipitación en el Reservorio")
+	reservorio_hora_precipitacion = models.CharField(max_length=765, blank=True, verbose_name=" Hora de la precipitación en el Reservorio")
+	trasvase_tunel_chonchano = models.FloatField(null=True, blank=True, verbose_name="Transvase Tunel Chonchano")
+	trasvase_tunel_chotano = models.FloatField(null=True, blank=True, verbose_name="Transvase Tunel Chotano")
+	chonchano_seishoras = models.FloatField(null=True, blank=True, verbose_name="Chonchano a las 06:00 horas")
+	chotano_seishoras = models.FloatField(null=True, blank=True, verbose_name="Chotano a las 06:00 horas")
+	chotano_temperatura_maxima = models.FloatField(null=True, blank=True, verbose_name="Temperatura Máxima del Chotano")
+	chotano_humedad_relativa = models.FloatField(null=True, blank=True, verbose_name="Humedad relativa en el Chotano")
+	chotano_estado_tiempo = models.CharField(max_length=765, blank=True, verbose_name="Estado del Tiempo")
+	chotano_temperatura_mimino = models.FloatField(null=True, blank=True, verbose_name="Temperatura Mínima del Chotano")
+	chotano_precipitacion = models.FloatField(null=True, blank=True, verbose_name="Precipitación en el Chotano")
+	chotano_precipitacion_hora = models.CharField(max_length=765, blank=True, verbose_name="Hora de Precipitacion en Chotano")
+	reservorio_temperatura_13horas = models.FloatField(null=True, blank=True, verbose_name="Temperatura a las 13 horas en el Reservorio")
+	reservorio_temperatura_19horas = models.FloatField(null=True, blank=True, verbose_name="Temperatura a las 19 horas en el Reservorio")
+	reservorio_temperatura_05horas = models.FloatField(null=True, blank=True, verbose_name="Temperatura a las 05 horas en el Reservorio")
+	volumen_reservorio = models.FloatField(null=True, blank=True,verbose_name="Reservorio de tinajones")   	
+	perdidas = models.FloatField(null=True, blank=True,verbose_name="Perdidas")   	
+	balance_alimentador = models.FloatField(null=True, blank=True)
+	balance_descarga = models.FloatField(null=True, blank=True)
+	balance_majin = models.FloatField(null=True, blank=True)
+	balance_filtro = models.FloatField(null=True, blank=True) 	
+	balance_volumen = models.FloatField(null=True, blank=True)
+	balance_volumen_metros = models.FloatField(null=True, blank=True)
+	balance_valor_teorico = models.FloatField(null=True, blank=True)
+	balance_variacion_mes = models.FloatField(null=True, blank=True)
+	balance_reservorio_proyectado_mensual = models.FloatField(null=True, blank=True)
+	balance_diferencia_volumenes = models.FloatField(null=True, blank=True)
+	balance_diferencia_volumenes_metros = models.FloatField(null=True, blank=True)
+	balance_variacion_nivel  = models.FloatField(null=True, blank=True)
+	observacion = models.TextField(blank=True, verbose_name="Observaciones")
+	activo = models.BooleanField(default=True, verbose_name="¿Activo?")
+	publicado = models.BooleanField(default=False, verbose_name="¿Publicado?")
+	created_at = models.DateTimeField(auto_now_add=True)
+	updated_at = models.DateTimeField(auto_now=True)
+	ip_address = models.IPAddressField()
+    	host_name = models.CharField(max_length=50)
+    	user = models.ForeignKey(User)
+
+	def __unicode__(self):
+		return '%0*d' % (5, int(self.id)) 
+
+	def obtener_radiograma_anterior(self):
+		fecha_anterior = self.fecha + timedelta(days=-1)
+		return Radiograma.objects.get(fecha=fecha_anterior)
+		
+	def obtener_perdidas(self):
+            	tinajones = Tinajones.buscar_tinajones_por_cota(self.reservorio_cota)
+            	aplicacion = Tinajones.obtener_aplicacion(self.reservorio_cota)
+           	perdidas = round((((self.reservorio_cota - tinajones.altura) * aplicacion / 0.2 + tinajones.area )*0.0067), 0)
+		return perdidas
+
+	def obtener_volumen(self):
+            	tinajones = Tinajones.buscar_tinajones_por_cota(self.reservorio_cota)
+            	factor = tinajones.factor
+            	volumen_de_cota = tinajones.volumen
+            	msnm = tinajones.altura
+            	cota_menos_msnm = self.reservorio_cota - msnm
+            	msnmlitros = cota_menos_msnm * 1000
+            	msnmlitros_por_factor = msnmlitros * factor
+            	volumen = round((msnmlitros_por_factor+volumen_de_cota),0)
+            	return volumen
+
+	def obtener_balance_del_alimentador(self):
+             	medida = Medida.objects.get(parametro=3,radiograma=self.id)
+             	ingreso_alimentador = round((medida.obtener_promedio_del_dia() * 86400), 0)             
+            	return ingreso_alimentador
+
+	def obtener_balance_del_descarga(self):
+             	medida = Medida.objects.get(parametro=5,radiograma=self.id)
+             	ingreso_canal_descarga= round((medida.obtener_promedio_del_dia() * 86400), 0)            
+            	return ingreso_canal_descarga
+
+	def obtener_balance_majin(self):
+             	medida = Medida.objects.get(parametro=6,radiograma=self.id)
+             	medida2 = Medida.objects.get(parametro=7,radiograma=self.id)
+             	ingreso_majin= round(((medida.obtener_promedio_del_dia() + medida2.obtener_promedio_del_dia()) * 86400), 0)
+		return ingreso_majin
+
+	def obtener_balance_filtro(self):     
+            	return round((self.obtener_perdidas()), 0)
+
+	def obtener_balance_volumen(self):
+             	             
+             	var2 = self.obtener_balance_del_descarga()
+             	var3 = self.obtener_balance_majin()
+             	var4 = self.obtener_balance_filtro()
+             	balance = round((var2-var3-var4),3) ;                  
+           	return balance
+
+	def obtener_dias_restantes_mes(self):
+		today = datetime.now()
+		dias_restantes = calendar.monthrange(today.year, today.month)[1]-self.fecha.day    	                    
+            	return dias_restantes
+
+	def obtener_dias_del_mes(self):
+		#today = datetime.now()
+		#dias_restantes = calendar.monthrange(today.year, today.month)[1]-self.fecha.day 
+		#dia	
+                dias_de_mes = calendar.mdays[self.fecha.month]   	                    
+            	return dias_de_mes
+
+	@classmethod
+	def obtener_resumen_mensual(self, anio, mes):
+		resumen_mensual = []
+		for radiograma in Radiograma.objects.filter(fecha__year=anio, fecha__month=mes).order_by('fecha'):
+	    		resumen = {'dia':radiograma.fecha.day,
+		       	'ch_promedio': "%.03f " % Medida.objects.get(parametro=1,radiograma=radiograma.id).obtener_promedio_del_dia(),
+			'ch_max': "%.03f " % Medida.objects.get(parametro=1,radiograma=radiograma.id).obtener_maxima(),
+			'ch_min': "%.03f " % Medida.objects.get(parametro=1,radiograma=radiograma.id).obtener_minima(),
+	 	        'ch_compuerta': "%.03f " % Medida.objects.get(parametro=2,radiograma=radiograma.id).obtener_promedio_del_dia(),
+			'ch_descarga': "%.03f " % Medida.objects.get(parametro=5,radiograma=radiograma.id).obtener_promedio_del_dia(),
+			'ch_alimentador': "%.03f " % Medida.objects.get(parametro=3,radiograma=radiograma.id).obtener_promedio_del_dia(),
+			'queb_promedio': "%.03f " % Medida.objects.get(parametro=4,radiograma=radiograma.id).obtener_promedio_del_dia(),
+		        'punt_promedio': "%.03f " % Medida.objects.get(parametro=9,radiograma=radiograma.id).obtener_promedio_del_dia(),
+		        'punt_max': "%.03f " % Medida.objects.get(parametro=9,radiograma=radiograma.id).obtener_maxima(),
+			'boc_promedio': "%.03f " % Medida.objects.get(parametro=10,radiograma=radiograma.id).obtener_promedio_del_dia(),
+			'boc_max': "%.03f " % Medida.objects.get(parametro=10,radiograma=radiograma.id).obtener_maxima(),
+			'boc_min': "%.03f " % Medida.objects.get(parametro=10,radiograma=radiograma.id).obtener_minima(),}
+                        resumen_mensual.append(resumen)
+			          
+            	return resumen_mensual
+
+	@classmethod
+	def obtener_promedios_mensuales(self, resumen):
+		indicadores = ['ch_promedio','ch_max','ch_min','ch_compuerta','ch_descarga','ch_alimentador','queb_promedio','punt_promedio','punt_max','boc_promedio','boc_max','boc_min',]
+		promedios_mensual = []
+		for indicador in indicadores:
+	    		resumen = {'promedio':1,
+		       	'masa':1*86400,
+			'minima':1,
+			'maxima':1,}
+                        promedios_mensual.append(resumen)
+			            
+            	return promedios_mensual
+
+
+	@classmethod
+	def obtener_resumen_radiograma(self, anio, mes):
+		radiogramas_mensual = []
+		for radiograma in Radiograma.objects.filter(fecha__year=anio, fecha__month=mes).order_by('fecha'):
+	    		resumen = {'dia':radiograma.fecha.day,
+		       	'chotano': "%.03f " % radiograma.trasvase_tunel_chotano,
+			'chonchano': "%.03f " % radiograma.trasvase_tunel_chonchano,
+		       	'res_tmax': "%.02f " % radiograma.reservorio_temperatura_maxima,
+		       	'res_tmin': "%.02f " % radiograma.reservorio_temperatura_minima,
+		       	'res_hr': "%.02f " % radiograma.reservorio_humedad_relativa,
+		       	'res_prec': "%.02f " % radiograma.reservorio_precipitacion,
+		       	'res_eva': "%.02f " % radiograma.reservorio_evaporacion,
+		       	'cht_tmax': "%.02f " % radiograma.chotano_temperatura_maxima,
+		       	'cht_tmin': "%.02f " % radiograma.chotano_temperatura_mimino,
+		       	'cht_hr': "%.02f " % radiograma.chotano_humedad_relativa,
+			'cht_prec': "%.02f " % radiograma.chotano_precipitacion,
+		       	'rev_t13': "%.02f " % radiograma.reservorio_temperatura_13horas,
+		       	'rev_t19':  "%.02f " % radiograma.reservorio_temperatura_19horas,
+			'rev_t05':  "%.02f " % radiograma.reservorio_temperatura_05horas,
+			'ch_hor_max': Medida.objects.get(parametro=1,radiograma=radiograma.id).obtener_hora_maxima(),
+			'ch_hora_min':Medida.objects.get(parametro=1,radiograma=radiograma.id).obtener_hora_minima(),}
+                        radiogramas_mensual.append(resumen)
+
+		return radiogramas_mensual
+
+
+	@classmethod
+	def obtener_resumen_chancay(self, anio, mes):
+		valores = []
+		for radiograma in Radiograma.objects.filter(fecha__year=anio, fecha__month=mes).order_by('fecha'):
+	    		resumen = {'dia':radiograma.fecha.day,
+		       	'ch_promedio': "%.03f "  % Medida.objects.get(parametro=1,radiograma=radiograma.id).obtener_promedio_del_dia(),
+		       	#'ch_promedio_volumen': "%.00f " % (Medida.objects.get(parametro=1,radiograma=radiograma.id).obtener_promedio_del_dia()* 86400),}
+			'ch_promedio_volumen': "{:,}".format((Medida.objects.get(parametro=1,radiograma=radiograma.id).obtener_promedio_del_dia()* 86400)),}
+
+                        valores.append(resumen)
+
+		return valores
+
+	@classmethod
+	def obtener_resumen_chonchano(self, anio, mes):
+		valores = []
+		for radiograma in Radiograma.objects.filter(fecha__year=anio, fecha__month=mes).order_by('fecha'):
+	    		resumen = {'dia':radiograma.fecha.day,
+		       	'chonchano': "%.03f " % radiograma.trasvase_tunel_chonchano,
+		       	#'ch_promedio_volumen': "%.00f " % (Medida.objects.get(parametro=1,radiograma=radiograma.id).obtener_promedio_del_dia()* 86400),}
+			'chonchano_volumen': "{:,}".format((radiograma.trasvase_tunel_chonchano * 86400)),}
+                        valores.append(resumen)
+
+		return valores
+
+
+
+	@classmethod
+	def obtener_resumen_chotano(self, anio, mes):
+		valores = []
+		for radiograma in Radiograma.objects.filter(fecha__year=anio, fecha__month=mes).order_by('fecha'):
+	    		resumen = {'dia':radiograma.fecha.day,
+		       	'chotano': "%.03f " % radiograma.trasvase_tunel_chotano,
+		       	#'ch_promedio_volumen': "%.00f " % (Medida.objects.get(parametro=1,radiograma=radiograma.id).obtener_promedio_del_dia()* 86400),}
+			'chotano_volumen': "{:,}".format((radiograma.trasvase_tunel_chotano * 86400)),}
+                        valores.append(resumen)
+		return valores
+
+           
+	class Meta:
+ 		permissions = (
+            		("activar_radiograma", "Poder activar radiogramas"),
+			("desactivar_radiograma", "Poder desactivar radiogramas"),
+            		("publicar_radiograma", "Poder publicar radiogramas"),
+            		("despublicar_radiograma", "Poder despublicar radiogramas"),
+        	)
+        	db_table = u'radiograma'
+		ordering = ['-created_at']
+		verbose_name = "Radiograma"
+        	verbose_name_plural = "Radiogramas"
+	
+
+
+class Medida(models.Model):
+    	parametro = models.ForeignKey(Parametro, verbose_name="Parámetro")
+	radiograma = models.ForeignKey(Radiograma, verbose_name="Radiograma")  
+    	hora1 = models.FloatField(verbose_name="Hora 1", default=0.0)
+    	hora2 = models.FloatField(verbose_name="Hora 2", default=0.0)
+    	hora3 = models.FloatField(verbose_name="Hora 3", default=0.0)
+    	hora4 = models.FloatField(verbose_name="Hora 4", default=0.0)
+    	hora5 = models.FloatField(verbose_name="Hora 5", default=0.0)
+    	hora6 = models.FloatField(verbose_name="Hora 6", default=0.0)
+    	hora7 = models.FloatField(verbose_name="Hora 7", default=0.0)
+    	hora8 = models.FloatField(verbose_name="Hora 8", default=0.0)
+    	hora9 = models.FloatField(verbose_name="Hora 9",null=True, blank=True, default=0.0,)
+    	hora10 = models.FloatField(verbose_name="Hora 10",null=True, blank=True, default=0)
+    	hora11 = models.FloatField(verbose_name="Hora 11",null=True, blank=True, default=0)
+    	hora12 = models.FloatField(verbose_name="Hora 12",null=True, blank=True, default=0)
+    	hora13 = models.FloatField(verbose_name="Hora 13",null=True, blank=True, default=0)
+    	hora14 = models.FloatField(verbose_name="Hora 14",null=True, blank=True, default=0)
+    	hora15 = models.FloatField(verbose_name="Hora 15",null=True, blank=True, default=0)
+    	hora16 = models.FloatField(verbose_name="Hora 16",null=True, blank=True, default=0)
+    	hora17 = models.FloatField(verbose_name="Hora 17",null=True, blank=True, default=0)
+    	hora18 = models.FloatField(verbose_name="Hora 18",null=True, blank=True, default=0)
+    	hora19 = models.FloatField(verbose_name="Hora 19",null=True, blank=True, default=0)
+    	hora20 = models.FloatField(verbose_name="Hora 20",null=True, blank=True, default=0)
+    	hora21 = models.FloatField(verbose_name="Hora 21",null=True, blank=True, default=0)
+    	hora22 = models.FloatField(verbose_name="Hora 22",null=True, blank=True, default=0)
+   	hora23 = models.FloatField(verbose_name="Hora 23",null=True, blank=True, default=0)
+    	hora24 = models.FloatField(verbose_name="Hora 24",null=True, blank=True, default=0)
+	promedio_del_dia = models.FloatField(null=True, blank=True,verbose_name="Promedio del día")
+    	promedio_06_horas  = models.FloatField(null=True, blank=True,verbose_name="Promedio 06 a las horas")
+    	promedio_12_horas = models.FloatField(null=True, blank=True,verbose_name="Promedio 12 a las horas")
+    	promedio_18_horas = models.FloatField(null=True, blank=True,verbose_name="Promedio 18 a las horas")
+    	promedio_24_horas = models.FloatField(default=True,verbose_name="¿Promedio 24 a las horas?")
+    	masa_diaria = models.FloatField(default=True,verbose_name="Masa diaria")
+    	maxima_parametros = models.FloatField(null=True, blank=True,verbose_name="Maxima de parametros")
+    	minima_parametros = models.FloatField(null=True, blank=True,verbose_name="Mínima de parametros")     
+    	created_at = models.DateTimeField(auto_now_add=True)
+    	updated_at = models.DateTimeField(auto_now=True)
+	ip_address = models.IPAddressField()
+    	host_name = models.CharField(max_length=50)
+    	user = models.ForeignKey(User)
+
+	def obtener_promedio_del_dia(self):
+		promedio = (self.hora1+self.hora2+self.hora3+self.hora4+self.hora5+self.hora6+self.hora7+self.hora8+self.hora9+self.hora10+self.hora11+self.hora12+self.hora13+self.hora14+self.hora15+self.hora16+self.hora17+self.hora18+self.hora19+self.hora20+self.hora21+self.hora22+self.hora23+self.hora24)/24
+		return round(promedio, 3) 
+
+	def obtener_promedio_06_horas(self):
+		promedio6 = (self.hora1+self.hora2+self.hora3+self.hora4+self.hora5+self.hora6)/6
+		return round(promedio6, 3)
+
+	def obtener_promedio_12_horas(self):
+		promedio12 = (self.hora7+self.hora8+self.hora9+self.hora10+self.hora11+self.hora12)/6
+		return round(promedio12, 3)
+
+	def obtener_promedio_18_horas(self):
+		promedio18 = (self.hora13+self.hora14+self.hora15+self.hora16+self.hora17+self.hora18)/6
+		return round(promedio18, 3)
+
+	def obtener_promedio_24_horas(self):
+		promedio24 = round(((self.hora19+self.hora20+self.hora21+self.hora22+self.hora23+self.hora24)/6),3)
+		return promedio24
+
+	def obtener_masa_diaria(self):
+		masa = round(((self.obtener_promedio_del_dia()*86400)/1000000), 3)
+		return masa
+
+	def obtener_maxima(self):
+		maxima = max(self.hora1,self.hora2,self.hora3,self.hora4,self.hora5,self.hora6,self.hora7,self.hora8,self.hora9,self.hora10,self.hora11,self.hora12,self.hora13,self.hora14,self.hora15,self.hora16,self.hora17,self.hora18,self.hora19,self.hora20,self.hora21,self.hora22,self.hora23,self.hora24)
+		return maxima
+
+	def obtener_minima(self):
+		minima = min(self.hora1,self.hora2,self.hora3,self.hora4,self.hora5,self.hora6,self.hora7,self.hora8,self.hora9,self.hora10,self.hora11,self.hora12,self.hora13,self.hora14,self.hora15,self.hora16,self.hora17,self.hora18,self.hora19,self.hora20,self.hora21,self.hora22,self.hora23,self.hora24)
+		return minima
+	
+	def obtener_hora_maxima(self):
+		horas = {"01 Hora": self.hora1, "02 Horas": self.hora2, "03 Horas": self.hora3, "04 Horas": self.hora4, "05 Horas": self.hora5, "06 Horas": self.hora6, "07 Horas": self.hora7, "08 Horas": self.hora8, "09 Horas": self.hora9, "10 Horas": self.hora10, "11 Horas": self.hora11, "12 Horas": self.hora12, "13 Horas": self.hora13, "14 Horas": self.hora14, "15 Horas": self.hora15, "16 Horas": self.hora16, "17 Horas": self.hora17, "18 Horas": self.hora18, "19 Horas": self.hora19, "20 Horas": self.hora20, "21 Horas": self.hora21, "22 Horas": self.hora22, "23 Horas": self.hora23, "24 Horas": self.hora24}
+		return max(horas, key=horas.get) 
+
+	def obtener_hora_minima(self):
+		horas = {"01 Hora": self.hora1, "02 Horas": self.hora2, "03 Horas": self.hora3, "04 Horas": self.hora4, "05 Horas": self.hora5, "06 Horas": self.hora6, "07 Horas": self.hora7, "08 Horas": self.hora8, "09 Horas": self.hora9, "10 Horas": self.hora10, "11 Horas": self.hora11, "12 Horas": self.hora12, "13 Horas": self.hora13, "14 Horas": self.hora14, "15 Horas": self.hora15, "16 Horas": self.hora16, "17 Horas": self.hora17, "18 Horas": self.hora18, "19 Horas": self.hora19, "20 Horas": self.hora20, "21 Horas": self.hora21, "22 Horas": self.hora22, "23 Horas": self.hora23, "24 Horas": self.hora24}
+
+		return min(horas, key=horas.get) 
+
+	class Meta:
+       	 	db_table = u'medida'
+		ordering = ['-created_at']
+		verbose_name = "Medida"
+        	verbose_name_plural = "Medidas"
+		unique_together = (("radiograma","parametro"),)
+
+
+class Tinajones(models.Model):
+    	altura = models.FloatField(null=True, blank=True,verbose_name="Altura", unique=True)
+    	area = models.FloatField(null=True, blank=True,verbose_name="Area")
+    	volumen = models.FloatField(null=True, blank=True,verbose_name="Volumen")
+    	factor = models.FloatField(null=True, blank=True,verbose_name="Factor")
+    	activo = models.BooleanField(default=True,verbose_name="¿Activo?")
+    	created_at = models.DateTimeField(auto_now_add=True, verbose_name="Fecha de registro")
+    	updated_at = models.DateTimeField(auto_now=True, verbose_name="Fecha de actualización")
+	ip_address = models.IPAddressField()
+    	host_name = models.CharField(max_length=50)
+    	user = models.ForeignKey(User)	
+
+	@classmethod  
+	def obtener_aplicacion(self,cota):
+		consulta = "(select * from tinajones where altura > %s order by id limit 1) union all (select * from tinajones where altura < %s order by id desc limit  1 )" % (cota,cota)
+		tinajones = Tinajones.objects.raw(consulta)
+		return tinajones[0].area-tinajones[1].area;
+
+	@classmethod  
+	def buscar_tinajones_por_cota(self,cota):
+		tinajones = Tinajones.objects.filter(altura__lte=cota).order_by("-id")[0]
+		return tinajones
+
+	@classmethod
+	def obtener_listado(self,):
+		valor = []
+		for tinajones in Tinajones.objects.all().order_by('altura'):
+	    		resumen = {'altura': "%.03f " % tinajones.altura,
+			'area':  "{:,}".format((tinajones.area)),
+			'volumen':  "{:,}".format((tinajones.volumen)),
+			'factor': "%.03f " % tinajones.factor , }
+			#'aplicacion': tinajones.listar_aplicacion(tinajones=self.id) - tinajones.area , }
+                        valor.append(resumen)
+		return valor
+
+ 	@classmethod
+	def listar_aplicacion(self,clave):
+		consulta = "(select * from tinajones where id > %s order by id limit 2)" % (clave)
+		tinajones = Tinajones.objects.raw(consulta)
+		return tinajones[1].area
+
+    	class Meta:
+ 		permissions = (
+		    	("activar_tinajones", "Poder activar tinajones"),
+		    	("desactivar_tinajones", "Poder desactivar tinajones"),
+        	)
+        	db_table = u'tinajones'
+		ordering = ['-created_at']
+		verbose_name = "Tinajones"
+        	verbose_name_plural = "Tinajones"
+
+
+	
+
+
+
+
+
+

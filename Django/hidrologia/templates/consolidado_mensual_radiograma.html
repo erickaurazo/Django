@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cuadro N° 02: Consolidado mensual de Radiogramas</title>
+</head>
+
+<body>
+<table width="91%" height="80" border="0" align="center" cellpadding="2" cellspacing="2" id="tabinformacion">
+  <tr>
+    <td width="27%" height="60" nowrap="nowrap" scope="col"><h6 align="center"><img src="/home/erick/Django/proyecto/hidrologia/nuevo.jpg" width="60" height="60" /><br />
+      JUNTA DE USUARIOS<br />
+      CHANCAY-LAMBAYEQUE</h6></td>
+    <td width="46%" scope="col">&nbsp;</td>
+    <td width="27%" height="60" nowrap="nowrap" scope="col"><h6 align="center"><img src="/home/erick/Django/proyecto/hidrologia/operaciones.jpg" width="60" height="60"/><br />
+      OPERACIÓN Y MANTENIMIENTO<br />
+      SISTEMA MAYOR</h6></td>
+  </tr>
+</table>
+<hr />
+<h1 align="center">Consolidado Mensual - Radiograma</h1>
+<p align="right">Mes:</p>
+<table width="2340" border="1" align="center" cellpadding="2" cellspacing="2">
+  <tr>
+    <th width="100" rowspan="2" nowrap="nowrap" >D&iacute;as</th>
+    <th width="80" rowspan="2" >Chotano</th>
+    <th width="90" rowspan="2" >Chonchano</th>
+    <th colspan="5" >Reservorio</th>
+    <th colspan="4" >Chota</th>
+    <th colspan="3" >Temp<br />
+      Reservorio</th>
+    <th colspan="2" >Horas</th>
+  </tr>
+  <tr>
+    <td width="60" ><p align="center">T. Max</p></td>
+    <td width="60" ><p align="center">T. Min</p></td>
+    <td width="60" ><p align="center">H.R</p></td>
+    <td width="60" ><p align="center">Precip</p></td>
+    <td width="60" ><p align="center">Evap</p></td>
+    <td width="60" ><p align="center">T.Max</p></td>
+    <td width="60" ><p align="center">T.Min</p></td>
+    <td width="60" ><p align="center">HR</p></td>
+    <td width="60" ><p align="center">Precip</p></td>
+    <td width="60" ><p align="center">13:00</p></td>
+    <td width="60" ><p align="center">19:00</p></td>
+    <td width="60" ><p align="center">00:05</p></td>
+    <td width="85" ><p align="center">Max</p></td>
+    <td width="85" ><p align="center">Min</p></td>
+  </tr>
+ {% for radiograma in radiogramas %}
+  <tr>
+    <th nowrap="nowrap">{{ radiograma.dia }} </th>
+    <td><p align="right">{{ radiograma.chotano }} </p></td>
+    <td><p align="right">{{ radiograma.chonchano }} </p></td>
+    <td><p align="right">{{ radiograma.res_tmax }} </p></td>
+    <td><p align="right">{{ radiograma.res_tmin }} </p></td>
+    <td><p align="right">{{ radiograma.res_hr }} </p></td>
+    <td><p align="right">{{ radiograma.res_prec }} </p></td>
+    <td><p align="right">{{ radiograma.res_eva }} </p></td>
+    <td><p align="right">{{ radiograma.cht_tmax }} </p></td>
+    <td><p align="right">{{ radiograma.cht_tmin }} </p></td>
+    <td><p align="right">{{ radiograma.cht_hr }} </p></td>
+    <td><p align="right">{{ radiograma.cht_prec }} </p></td>
+    <td><p align="right">{{ radiograma.rev_t13 }}</p></td>
+    <td><p align="right">{{ radiograma.rev_t19 }}</p></td>
+    <td><p align="right">{{ radiograma.rev_t05 }}</p></td>
+    <td><p align="right">{{ radiograma.ch_hor_max }}</p></td>
+    <td><p align="right">{{ radiograma.ch_hora_min }}</p></td>
+  </tr>
+{% endfor %}
+
+  <tr>
+    <th colspan="17" nowrap="nowrap" scope="row">&nbsp;</th>
+  </tr>
+  <tr>
+    <th nowrap="nowrap" scope="row">suma</th>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <th nowrap="nowrap" scope="row">Promedio</th>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <th nowrap="nowrap" scope="row">Volumen</th>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <th nowrap="nowrap" scope="row">Acumulado</th>
+    <td>&nbsp;</td>
+
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+</body>
+</html>

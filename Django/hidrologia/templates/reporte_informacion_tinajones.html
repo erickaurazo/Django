@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cuadro N° 02: Consolidado mensual de Radiogramas</title>
+</head>
+
+<body>
+<table width="91%" height="80" border="0" align="center" cellpadding="2" cellspacing="2" id="tabinformacion">
+  <tr>
+    <td width="27%" height="60" nowrap="nowrap" scope="col"><h6 align="center"><img src="/home/erick/Django/proyecto/hidrologia/nuevo.jpg" width="60" height="60" /><br />
+      JUNTA DE USUARIOS<br />
+      CHANCAY-LAMBAYEQUE</h6></td>
+    <td width="46%" scope="col">&nbsp;</td>
+    <td width="27%" height="60" nowrap="nowrap" scope="col"><h6 align="center"><img src="/home/erick/Django/proyecto/hidrologia/operaciones.jpg" width="60" height="60"/><br />
+      OPERACIÓN Y MANTENIMIENTO<br />
+      SISTEMA MAYOR</h6></td>
+  </tr>
+</table>
+<hr />
+<h1 align="center">VOLUMENES EMBALSADOS Y ESPEJOS DE AGUA EN EL RESERVORIO TINAJONES</h1>
+<p align="right">&nbsp;</p>
+<div align="center">
+  <table width="280" border="1" align="center" cellpadding="2" cellspacing="2">
+    <tr>
+      <th width="80" scope="col"><p>COTA<br />
+      m.s.n.m</p></th>
+      <th width="80" scope="col"><p>AREA<br />
+        m2      <br />
+      </p></th>
+      <th width="80" scope="col"><p>VOLUMEN<br />
+      m3</p></th>
+      <th width="80" scope="col"><p>FACTOR<br />
+        mm</p></th>
+      <th width="80" scope="col"><p>&nbsp;</p></th>
+    </tr>
+ {% for tinajones in valor %}
+    <tr>
+      <td><p align="right">{{ tinajones.altura }}</p></td>
+      <td><p align="right">{{ tinajones.area }}</p></td>
+      <td><p align="right">{{ tinajones.volumen }}</p></td>
+      <td><p align="right">{{ tinajones.factor }}</p></td>
+      <td><p align="right">{{ tinajones.aplicacion }}</p></td>
+    </tr>
+{% endfor %}
+    <tr>
+      <th scope="row"><p align="right">&nbsp;</p></th>
+      <td><p align="right">&nbsp;</p></td>
+      <td><p align="right">&nbsp;</p></td>
+      <td><p align="right">&nbsp;</p></td>
+      <td><p align="right">&nbsp;</p></td>
+    </tr>
+  </table>
+</div>
+<p>&nbsp;</p>
+</body>
+</html>
+

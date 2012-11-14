@@ -1,0 +1,116 @@
+from polls.models import Poll
+from django.contrib import admin
+
+#1
+#si dejo solamente el de abajo descomentado la edicion sera en el orden de los atributos en la db
+#admin.site.register(Poll)
+
+#2
+#orden para la edición primero el pub_date y luego el question
+#class PollAdmin(admin.ModelAdmin):
+#    fields = ['pub_date', 'question']
+#admin.site.register(Poll, PollAdmin)
+
+#3
+#utilizo unos tag para poner la pregunta en una estructura y los datos en la otra
+#class PollAdmin(admin.ModelAdmin):
+#    fieldsets = [
+#        (None,               {'fields': ['question']}),
+#        ('Date information', {'fields': ['pub_date']}),
+#    ]
+
+#admin.site.register(Poll, PollAdmin)
+
+#4
+#lo utilizo para desplegar y collapsar campos
+class PollAdmin(admin.ModelAdmin):
+    fieldsets = [
+        (None,               {'fields': ['question']}),
+        ('Date information', {'fields': ['pub_date'], 'classes': ['collapse']}),
+    ]
+
+#5 agrego la otra tabla al diseño
+from polls.models import Choice
+
+admin.site.register(Choice)
+
+#6 Este esta mas completo que el anterior
+from django.contrib import admin
+class ChoiceInline(admin.StackedInline):
+    model = Choice
+    extra = 3
+
+class PollAdmin(admin.ModelAdmin):
+    fieldsets = [
+        (None,               {'fields': ['question']}),
+        ('Date information', {'fields': ['pub_date'], 'classes': ['collapse']}),
+    ]
+    inlines = [ChoiceInline]
+
+admin.site.register(Poll, PollAdmin)
+
+
+#7 --
+from polls.models import Poll
+from polls.models import Choice
+from django.contrib import admin
+
+class ChoiceInline(admin.StackedInline):
+    model = Choice
+    extra = 3
+
+class PollAdmin(admin.ModelAdmin):
+    
+    fieldsets = [
+        (None,               {'fields': ['question']}),
+        ('Date information', {'fields': ['pub_date'], 'classes': ['collapse']}),
+    ]
+    inlines = [ChoiceInline]
+    
+admin.site.register(Poll, PollAdmin)
+
+#8
+from polls.models import Poll
+from polls.models import Choice
+from django.contrib import admin
+
+class ChoiceInline(admin.TabularInline):
+    model = Choice
+    extra = 3
+
+class PollAdmin(admin.ModelAdmin):
+    
+    fieldsets = [
+        (None,               {'fields': ['question']}),
+        ('Date information', {'fields': ['pub_date'], 'classes': ['collapse']}),
+    ]
+    inlines = [ChoiceInline]
+    
+admin.site.register(Poll, PollAdmin)
+#
+from polls.models import Poll
+from polls.models import Choice
+from django.contrib import admin
+
+class ChoiceInline(admin.TabularInline):
+    model = Choice
+    extra = 3
+
+class PollAdmin(admin.ModelAdmin):
+    
+    fieldsets = [
+        (None,               {'fields': ['question']}),
+        ('Date information', {'fields': ['pub_date'], 'classes': ['collapse']}),
+    ]
+    inlines = [ChoiceInline]
+    list_display = ('question', 'pub_date', 'was_published_recently')
+    list_filter = ['pub_date']
+    search_fields = ['question']
+    date_hierarchy = 'pub_date'
+
+admin.site.register(Poll, PollAdmin)
+
+
+
+
+

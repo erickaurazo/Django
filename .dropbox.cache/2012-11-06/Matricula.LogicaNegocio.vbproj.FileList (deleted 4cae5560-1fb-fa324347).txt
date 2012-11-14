@@ -1,0 +1,12 @@
+bin\Debug\Matricula.LogicaNegocio.dll
+bin\Debug\Matricula.LogicaNegocio.pdb
+bin\Debug\Matricula.LogicaNegocio.xml
+bin\Debug\Matricula.AccesoDatos.dll
+bin\Debug\Matricula.AccesoDatos.pdb
+bin\Debug\Matricula.AccesoDatos.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Matricula.LogicaNegocio.Resources.resources
+obj\Debug\Matricula.LogicaNegocio.vbproj.GenerateResource.Cache
+obj\Debug\Matricula.LogicaNegocio.dll
+obj\Debug\Matricula.LogicaNegocio.xml
+obj\Debug\Matricula.LogicaNegocio.pdb

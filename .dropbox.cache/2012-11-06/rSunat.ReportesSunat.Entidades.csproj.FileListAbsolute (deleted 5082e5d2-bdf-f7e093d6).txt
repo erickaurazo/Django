@@ -1,0 +1,20 @@
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Entidades\bin\Debug\rSunat.ReportesSunat.Entidades.dll
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Entidades\bin\Debug\rSunat.ReportesSunat.Entidades.pdb
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Entidades\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Entidades\obj\Debug\rSunat.ReportesSunat.Entidades.dll
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Entidades\obj\Debug\rSunat.ReportesSunat.Entidades.pdb
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Entidades\bin\Debug\rSunat.ReportesSunat.Entidades.dll
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Entidades\bin\Debug\rSunat.ReportesSunat.Entidades.pdb
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Entidades\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Entidades\obj\Debug\rSunat.ReportesSunat.Entidades.dll
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Entidades\obj\Debug\rSunat.ReportesSunat.Entidades.pdb
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Entidades\bin\Debug\rSunat.ReportesSunat.Entidades.dll
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Entidades\bin\Debug\rSunat.ReportesSunat.Entidades.pdb
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Entidades\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Entidades\obj\Debug\rSunat.ReportesSunat.Entidades.dll
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Entidades\obj\Debug\rSunat.ReportesSunat.Entidades.pdb
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Entidades\bin\Debug\rSunat.ReportesSunat.Entidades.dll
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Entidades\bin\Debug\rSunat.ReportesSunat.Entidades.pdb
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Entidades\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Entidades\obj\Debug\rSunat.ReportesSunat.Entidades.dll
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Entidades\obj\Debug\rSunat.ReportesSunat.Entidades.pdb

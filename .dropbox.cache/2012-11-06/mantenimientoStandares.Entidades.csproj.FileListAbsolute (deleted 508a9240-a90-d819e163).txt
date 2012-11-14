@@ -1,0 +1,20 @@
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.Entidades\bin\Debug\mantenimientoStandares.Entidades.exe
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.Entidades\bin\Debug\mantenimientoStandares.Entidades.pdb
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.Entidades\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.Entidades\obj\x86\Debug\mantenimientoStandares.Entidades.exe
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.Entidades\obj\x86\Debug\mantenimientoStandares.Entidades.pdb
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.Entidades\bin\Debug\mantenimientoStandares.Entidades.exe
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.Entidades\bin\Debug\mantenimientoStandares.Entidades.pdb
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.Entidades\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.Entidades\obj\x86\Debug\mantenimientoStandares.Entidades.exe
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.Entidades\obj\x86\Debug\mantenimientoStandares.Entidades.pdb
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.Entidades\bin\Debug\mantenimientoStandares.Entidades.exe
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.Entidades\bin\Debug\mantenimientoStandares.Entidades.pdb
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.Entidades\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.Entidades\obj\x86\Debug\mantenimientoStandares.Entidades.exe
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.Entidades\obj\x86\Debug\mantenimientoStandares.Entidades.pdb
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.Entidades\bin\Debug\mantenimientoStandares.Entidades.exe
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.Entidades\bin\Debug\mantenimientoStandares.Entidades.pdb
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.Entidades\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.Entidades\obj\x86\Debug\mantenimientoStandares.Entidades.exe
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.Entidades\obj\x86\Debug\mantenimientoStandares.Entidades.pdb

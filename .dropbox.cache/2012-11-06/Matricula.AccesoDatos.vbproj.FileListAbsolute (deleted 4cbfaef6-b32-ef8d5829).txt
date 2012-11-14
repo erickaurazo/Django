@@ -1,0 +1,18 @@
+C:\Documents and Settings\alumno\Escritorio\Modulo Matricula V2.0\Módulo de Matricula\Matriculas\Matricula.AccesoDatos\bin\Debug\Matricula.AccesoDatos.dll
+C:\Documents and Settings\alumno\Escritorio\Modulo Matricula V2.0\Módulo de Matricula\Matriculas\Matricula.AccesoDatos\bin\Debug\Matricula.AccesoDatos.pdb
+C:\Documents and Settings\alumno\Escritorio\Modulo Matricula V2.0\Módulo de Matricula\Matriculas\Matricula.AccesoDatos\bin\Debug\Matricula.AccesoDatos.xml
+C:\Documents and Settings\alumno\Escritorio\Modulo Matricula V2.0\Módulo de Matricula\Matriculas\Matricula.AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\alumno\Escritorio\Modulo Matricula V2.0\Módulo de Matricula\Matriculas\Matricula.AccesoDatos\obj\Debug\Matricula.AccesoDatos.Resources.resources
+C:\Documents and Settings\alumno\Escritorio\Modulo Matricula V2.0\Módulo de Matricula\Matriculas\Matricula.AccesoDatos\obj\Debug\Matricula.AccesoDatos.vbproj.GenerateResource.Cache
+C:\Documents and Settings\alumno\Escritorio\Modulo Matricula V2.0\Módulo de Matricula\Matriculas\Matricula.AccesoDatos\obj\Debug\Matricula.AccesoDatos.dll
+C:\Documents and Settings\alumno\Escritorio\Modulo Matricula V2.0\Módulo de Matricula\Matriculas\Matricula.AccesoDatos\obj\Debug\Matricula.AccesoDatos.xml
+C:\Documents and Settings\alumno\Escritorio\Modulo Matricula V2.0\Módulo de Matricula\Matriculas\Matricula.AccesoDatos\obj\Debug\Matricula.AccesoDatos.pdb
+C:\Users\Erick\Desktop\VIisual Studio\Modulo Matricula V2.1\Módulo de Matricula\Matriculas\Matricula.AccesoDatos\bin\Debug\Matricula.AccesoDatos.dll
+C:\Users\Erick\Desktop\VIisual Studio\Modulo Matricula V2.1\Módulo de Matricula\Matriculas\Matricula.AccesoDatos\bin\Debug\Matricula.AccesoDatos.pdb
+C:\Users\Erick\Desktop\VIisual Studio\Modulo Matricula V2.1\Módulo de Matricula\Matriculas\Matricula.AccesoDatos\bin\Debug\Matricula.AccesoDatos.xml
+C:\Users\Erick\Desktop\VIisual Studio\Modulo Matricula V2.1\Módulo de Matricula\Matriculas\Matricula.AccesoDatos\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Erick\Desktop\VIisual Studio\Modulo Matricula V2.1\Módulo de Matricula\Matriculas\Matricula.AccesoDatos\obj\Debug\Matricula.AccesoDatos.Resources.resources
+C:\Users\Erick\Desktop\VIisual Studio\Modulo Matricula V2.1\Módulo de Matricula\Matriculas\Matricula.AccesoDatos\obj\Debug\Matricula.AccesoDatos.vbproj.GenerateResource.Cache
+C:\Users\Erick\Desktop\VIisual Studio\Modulo Matricula V2.1\Módulo de Matricula\Matriculas\Matricula.AccesoDatos\obj\Debug\Matricula.AccesoDatos.dll
+C:\Users\Erick\Desktop\VIisual Studio\Modulo Matricula V2.1\Módulo de Matricula\Matriculas\Matricula.AccesoDatos\obj\Debug\Matricula.AccesoDatos.xml
+C:\Users\Erick\Desktop\VIisual Studio\Modulo Matricula V2.1\Módulo de Matricula\Matriculas\Matricula.AccesoDatos\obj\Debug\Matricula.AccesoDatos.pdb

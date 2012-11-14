@@ -1,0 +1,36 @@
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.LogicadeNegocio.dll
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.LogicadeNegocio.pdb
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.AccesoDatos.dll
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.Entidades.dll
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.AccesoDatos.pdb
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.Entidades.pdb
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\obj\Debug\rSunat.ReportesSunat.LogicadeNegocio.dll
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\obj\Debug\rSunat.ReportesSunat.LogicadeNegocio.pdb
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.LogicadeNegocio.dll
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.LogicadeNegocio.pdb
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.AccesoDatos.dll
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.Entidades.dll
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.AccesoDatos.pdb
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.Entidades.pdb
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\obj\Debug\rSunat.ReportesSunat.LogicadeNegocio.dll
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\obj\Debug\rSunat.ReportesSunat.LogicadeNegocio.pdb
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.LogicadeNegocio.dll
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.LogicadeNegocio.pdb
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.AccesoDatos.dll
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.Entidades.dll
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.AccesoDatos.pdb
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.Entidades.pdb
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\obj\Debug\rSunat.ReportesSunat.LogicadeNegocio.dll
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\obj\Debug\rSunat.ReportesSunat.LogicadeNegocio.pdb
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.LogicadeNegocio.dll
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.LogicadeNegocio.pdb
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.AccesoDatos.dll
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.Entidades.dll
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.AccesoDatos.pdb
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\bin\Debug\rSunat.ReportesSunat.Entidades.pdb
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\obj\Debug\rSunat.ReportesSunat.LogicadeNegocio.dll
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.LogicadeNegocio\obj\Debug\rSunat.ReportesSunat.LogicadeNegocio.pdb

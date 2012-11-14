@@ -1,0 +1,535 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+</head>
+
+<body>
+<table width="91%" height="80" border="0" align="center" cellpadding="2" cellspacing="2" id="tabinformacion">
+  <tr>
+    <td width="27%" height="60" nowrap="nowrap" scope="col"><h6 align="center"><img src="/home/erick/Django/proyecto/hidrologia/nuevo.jpg" width="60" height="60" /><br />
+      JUNTA DE USUARIOS<br />
+      CHANCAY-LAMBAYEQUE</h6></td>
+    <td width="46%" scope="col">&nbsp;</td>
+    <td width="27%" height="60" nowrap="nowrap" scope="col"><h6 align="center"><img src="/home/erick/Django/proyecto/hidrologia/operaciones.jpg" width="60" height="60"/><br />
+      OPERACIÓN Y MANTENIMIENTO<br />
+      SISTEMA MAYOR</h6></td>
+  </tr>
+</table>
+<hr />
+<h1 align="center">Resumen de Medidas diarias</h1>
+<p align="right">Mes:</p>
+<table border='1' align='center' cellpadding='2' cellspacing='2'>
+  <thead>
+    <tr>
+      <th align='center' > Hora </th>
+      <th align='center' > Chancay </th>
+      <th align='center' > Comp. <br/>
+        R&iacute;o </th>
+      <th align='center' > Canal. <br/>
+        Aliment </th>
+      <th align='center' > Aport. <br/>
+        Quebr </th>
+      <th align='center' > Descarga </th>
+      <th align='center' > Magin </th>
+      <th align='center' > Upch </th>
+      <th align='center' > Cir. <br/>
+        Asig. </th>
+      <th align='center' > Puntilla <br/>
+        Reque </th>
+      <th align='center' > Exc <br/>
+        Monsef&uacute; </th>
+      <th align='center' > Q </th>
+      <th align='center' > HM </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th align='right'> 01:00 </th>
+      <td align='right'> {{ medida_chancay_hora_01 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_01 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_01 }} </td>
+      <td align='right'> {{ medida_aporte_hora_01 }} </td>
+      <td align='right'> {{ medida_descarga_hora_01 }} </td>
+      <td align='right'> {{ medida_majin_hora_01 }} </td>
+      <td align='right'> {{ medida_upch_hora_01 }} </td>
+      <td align='right'> {{ medida_circulante_hora_01 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_01 }} </td>
+      <td align='right'> {{ medida_exceso_hora_01 }} </td>
+      <td align='right'> {{ medida_q_hora_01 }} </td>
+      <td align='right'> {{ medida_hm_hora_01 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 02:00 </th>
+      <td align='right'> {{ medida_chancay_hora_02 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_02 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_02 }} </td>
+      <td align='right'> {{ medida_aporte_hora_02 }} </td>
+      <td align='right'> {{ medida_descarga_hora_02 }} </td>
+      <td align='right'> {{ medida_majin_hora_02 }} </td>
+      <td align='right'> {{ medida_upch_hora_02 }} </td>
+      <td align='right'> {{ medida_circulante_hora_02 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_02 }} </td>
+      <td align='right'> {{ medida_exceso_hora_02 }} </td>
+      <td align='right'> {{ medida_q_hora_02 }} </td>
+      <td align='right'> {{ medida_hm_hora_02 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 03:00 </th>
+      <td align='right'> {{ medida_chancay_hora_03 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_03 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_03 }} </td>
+      <td align='right'> {{ medida_aporte_hora_03 }} </td>
+      <td align='right'> {{ medida_descarga_hora_03 }} </td>
+      <td align='right'> {{ medida_majin_hora_03 }} </td>
+      <td align='right'> {{ medida_upch_hora_03 }} </td>
+      <td align='right'> {{ medida_circulante_hora_03 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_03 }} </td>
+      <td align='right'> {{ medida_exceso_hora_03 }} </td>
+      <td align='right'> {{ medida_q_hora_03 }} </td>
+      <td align='right'> {{ medida_hm_hora_03 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 04:00 </th>
+      <td align='right'> {{ medida_chancay_hora_04 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_04 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_04 }} </td>
+      <td align='right'> {{ medida_aporte_hora_04 }} </td>
+      <td align='right'> {{ medida_descarga_hora_04 }} </td>
+      <td align='right'> {{ medida_majin_hora_04 }} </td>
+      <td align='right'> {{ medida_upch_hora_04 }} </td>
+      <td align='right'> {{ medida_circulante_hora_04 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_04 }} </td>
+      <td align='right'> {{ medida_exceso_hora_04 }} </td>
+      <td align='right'> {{ medida_q_hora_04 }} </td>
+      <td align='right'> {{ medida_hm_hora_04 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 05:00 </th>
+      <td align='right'> {{ medida_chancay_hora_05 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_05 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_05 }} </td>
+      <td align='right'> {{ medida_aporte_hora_05 }} </td>
+      <td align='right'> {{ medida_descarga_hora_05 }} </td>
+      <td align='right'> {{ medida_majin_hora_05 }} </td>
+      <td align='right'> {{ medida_upch_hora_05 }} </td>
+      <td align='right'> {{ medida_circulante_hora_05 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_05 }} </td>
+      <td align='right'> {{ medida_exceso_hora_05 }} </td>
+      <td align='right'> {{ medida_q_hora_05 }} </td>
+      <td align='right'> {{ medida_hm_hora_05 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 06:00 </th>
+      <td align='right'> {{ medida_chancay_hora_06 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_06 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_06 }} </td>
+      <td align='right'> {{ medida_aporte_hora_06 }} </td>
+      <td align='right'> {{ medida_descarga_hora_06 }} </td>
+      <td align='right'> {{ medida_majin_hora_06 }} </td>
+      <td align='right'> {{ medida_upch_hora_06 }} </td>
+      <td align='right'> {{ medida_circulante_hora_06 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_06 }} </td>
+      <td align='right'> {{ medida_exceso_hora_06 }} </td>
+      <td align='right'> {{ medida_q_hora_06 }} </td>
+      <td align='right'> {{ medida_hm_hora_06 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 07:00 </th>
+      <td align='right'> {{ medida_chancay_hora_07 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_07 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_07 }} </td>
+      <td align='right'> {{ medida_aporte_hora_07 }} </td>
+      <td align='right'> {{ medida_descarga_hora_07 }} </td>
+      <td align='right'> {{ medida_majin_hora_07 }} </td>
+      <td align='right'> {{ medida_upch_hora_07 }} </td>
+      <td align='right'> {{ medida_circulante_hora_07 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_07 }} </td>
+      <td align='right'> {{ medida_exceso_hora_07 }} </td>
+      <td align='right'> {{ medida_q_hora_07 }} </td>
+      <td align='right'> {{ medida_hm_hora_07 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 08:00 </th>
+      <td align='right'> {{ medida_chancay_hora_08 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_08 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_08 }} </td>
+      <td align='right'> {{ medida_aporte_hora_08 }} </td>
+      <td align='right'> {{ medida_descarga_hora_08 }} </td>
+      <td align='right'> {{ medida_majin_hora_08 }} </td>
+      <td align='right'> {{ medida_upch_hora_08 }} </td>
+      <td align='right'> {{ medida_circulante_hora_08 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_08 }} </td>
+      <td align='right'> {{ medida_exceso_hora_08 }} </td>
+      <td align='right'> {{ medida_q_hora_08 }} </td>
+      <td align='right'> {{ medida_hm_hora_08 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 09:00 </th>
+      <td align='right'> {{ medida_chancay_hora_09 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_09 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_09 }} </td>
+      <td align='right'> {{ medida_aporte_hora_09 }} </td>
+      <td align='right'> {{ medida_descarga_hora_09 }} </td>
+      <td align='right'> {{ medida_majin_hora_09 }} </td>
+      <td align='right'> {{ medida_upch_hora_09 }} </td>
+      <td align='right'> {{ medida_circulante_hora_09 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_09 }} </td>
+      <td align='right'> {{ medida_exceso_hora_09 }} </td>
+      <td align='right'> {{ medida_q_hora_09 }} </td>
+      <td align='right'> {{ medida_hm_hora_09 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 10:00 </th>
+      <td align='right'> {{ medida_chancay_hora_10 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_10 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_10 }} </td>
+      <td align='right'> {{ medida_aporte_hora_10 }} </td>
+      <td align='right'> {{ medida_descarga_hora_10 }} </td>
+      <td align='right'> {{ medida_majin_hora_10 }} </td>
+      <td align='right'> {{ medida_upch_hora_10 }} </td>
+      <td align='right'> {{ medida_circulante_hora_10 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_10 }} </td>
+      <td align='right'> {{ medida_exceso_hora_10 }} </td>
+      <td align='right'> {{ medida_q_hora_10 }} </td>
+      <td align='right'> {{ medida_hm_hora_10 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 11:00 </th>
+      <td align='right'> {{ medida_chancay_hora_11 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_11 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_11 }} </td>
+      <td align='right'> {{ medida_aporte_hora_11 }} </td>
+      <td align='right'> {{ medida_descarga_hora_11 }} </td>
+      <td align='right'> {{ medida_majin_hora_11 }} </td>
+      <td align='right'> {{ medida_upch_hora_11 }} </td>
+      <td align='right'> {{ medida_circulante_hora_11 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_11 }} </td>
+      <td align='right'> {{ medida_exceso_hora_11 }} </td>
+      <td align='right'> {{ medida_q_hora_11 }} </td>
+      <td align='right'> {{ medida_hm_hora_11 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 12:00 </th>
+      <td align='right'> {{ medida_chancay_hora_12 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_12 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_12 }} </td>
+      <td align='right'> {{ medida_aporte_hora_12 }} </td>
+      <td align='right'> {{ medida_descarga_hora_12 }} </td>
+      <td align='right'> {{ medida_majin_hora_12 }} </td>
+      <td align='right'> {{ medida_upch_hora_12 }} </td>
+      <td align='right'> {{ medida_circulante_hora_12 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_12 }} </td>
+      <td align='right'> {{ medida_exceso_hora_12 }} </td>
+      <td align='right'> {{ medida_q_hora_12 }} </td>
+      <td align='right'> {{ medida_hm_hora_12 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 13:00 </th>
+      <td align='right'> {{ medida_chancay_hora_13 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_13 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_13 }} </td>
+      <td align='right'> {{ medida_aporte_hora_13 }} </td>
+      <td align='right'> {{ medida_descarga_hora_13 }} </td>
+      <td align='right'> {{ medida_majin_hora_13 }} </td>
+      <td align='right'> {{ medida_upch_hora_13 }} </td>
+      <td align='right'> {{ medida_circulante_hora_13 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_13 }} </td>
+      <td align='right'> {{ medida_exceso_hora_13 }} </td>
+      <td align='right'> {{ medida_q_hora_13 }} </td>
+      <td align='right'> {{ medida_hm_hora_13 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 14:00 </th>
+      <td align='right'> {{ medida_chancay_hora_14 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_14 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_14 }} </td>
+      <td align='right'> {{ medida_aporte_hora_14 }} </td>
+      <td align='right'> {{ medida_descarga_hora_14 }} </td>
+      <td align='right'> {{ medida_majin_hora_14 }} </td>
+      <td align='right'> {{ medida_upch_hora_14 }} </td>
+      <td align='right'> {{ medida_circulante_hora_14 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_14 }} </td>
+      <td align='right'> {{ medida_exceso_hora_14 }} </td>
+      <td align='right'> {{ medida_q_hora_14 }} </td>
+      <td align='right'> {{ medida_hm_hora_14 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 15:00 </th>
+      <td align='right'> {{ medida_chancay_hora_15 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_15 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_15 }} </td>
+      <td align='right'> {{ medida_aporte_hora_15 }} </td>
+      <td align='right'> {{ medida_descarga_hora_15 }} </td>
+      <td align='right'> {{ medida_majin_hora_15 }} </td>
+      <td align='right'> {{ medida_upch_hora_15 }} </td>
+      <td align='right'> {{ medida_circulante_hora_15 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_15 }} </td>
+      <td align='right'> {{ medida_exceso_hora_15 }} </td>
+      <td align='right'> {{ medida_q_hora_15 }} </td>
+      <td align='right'> {{ medida_hm_hora_15 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 16:00 </th>
+      <td align='right'> {{ medida_chancay_hora_16 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_16 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_16 }} </td>
+      <td align='right'> {{ medida_aporte_hora_16 }} </td>
+      <td align='right'> {{ medida_descarga_hora_16 }} </td>
+      <td align='right'> {{ medida_majin_hora_16 }} </td>
+      <td align='right'> {{ medida_upch_hora_16 }} </td>
+      <td align='right'> {{ medida_circulante_hora_16 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_16 }} </td>
+      <td align='right'> {{ medida_exceso_hora_16 }} </td>
+      <td align='right'> {{ medida_q_hora_16 }} </td>
+      <td align='right'> {{ medida_hm_hora_16 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 17:00 </th>
+      <td align='right'> {{ medida_chancay_hora_17 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_17 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_17 }} </td>
+      <td align='right'> {{ medida_aporte_hora_17 }} </td>
+      <td align='right'> {{ medida_descarga_hora_17 }} </td>
+      <td align='right'> {{ medida_majin_hora_17 }} </td>
+      <td align='right'> {{ medida_upch_hora_17 }} </td>
+      <td align='right'> {{ medida_circulante_hora_17 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_17 }} </td>
+      <td align='right'> {{ medida_exceso_hora_17 }} </td>
+      <td align='right'> {{ medida_q_hora_17 }} </td>
+      <td align='right'> {{ medida_hm_hora_17 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 18:00 </th>
+      <td align='right'> {{ medida_chancay_hora_18 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_18 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_18 }} </td>
+      <td align='right'> {{ medida_aporte_hora_18 }} </td>
+      <td align='right'> {{ medida_descarga_hora_18 }} </td>
+      <td align='right'> {{ medida_majin_hora_18 }} </td>
+      <td align='right'> {{ medida_upch_hora_18 }} </td>
+      <td align='right'> {{ medida_circulante_hora_18 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_18 }} </td>
+      <td align='right'> {{ medida_exceso_hora_18 }} </td>
+      <td align='right'> {{ medida_q_hora_18 }} </td>
+      <td align='right'> {{ medida_hm_hora_18 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 19:00 </th>
+      <td align='right'> {{ medida_chancay_hora_19 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_19 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_19 }} </td>
+      <td align='right'> {{ medida_aporte_hora_19 }} </td>
+      <td align='right'> {{ medida_descarga_hora_19 }} </td>
+      <td align='right'> {{ medida_majin_hora_19 }} </td>
+      <td align='right'> {{ medida_upch_hora_19 }} </td>
+      <td align='right'> {{ medida_circulante_hora_19 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_19 }} </td>
+      <td align='right'> {{ medida_exceso_hora_19 }} </td>
+      <td align='right'> {{ medida_q_hora_19 }} </td>
+      <td align='right'> {{ medida_hm_hora_19 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 20:00 </th>
+      <td align='right'> {{ medida_chancay_hora_20 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_20 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_20 }} </td>
+      <td align='right'> {{ medida_aporte_hora_20 }} </td>
+      <td align='right'> {{ medida_descarga_hora_20 }} </td>
+      <td align='right'> {{ medida_majin_hora_20 }} </td>
+      <td align='right'> {{ medida_upch_hora_20 }} </td>
+      <td align='right'> {{ medida_circulante_hora_20 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_20 }} </td>
+      <td align='right'> {{ medida_exceso_hora_20 }} </td>
+      <td align='right'> {{ medida_q_hora_20 }} </td>
+      <td align='right'> {{ medida_hm_hora_20 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 21:00 </th>
+      <td align='right'> {{ medida_chancay_hora_21 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_21 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_21 }} </td>
+      <td align='right'> {{ medida_aporte_hora_21 }} </td>
+      <td align='right'> {{ medida_descarga_hora_21 }} </td>
+      <td align='right'> {{ medida_majin_hora_21 }} </td>
+      <td align='right'> {{ medida_upch_hora_21 }} </td>
+      <td align='right'> {{ medida_circulante_hora_21 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_21 }} </td>
+      <td align='right'> {{ medida_exceso_hora_21 }} </td>
+      <td align='right'> {{ medida_q_hora_21 }} </td>
+      <td align='right'> {{ medida_hm_hora_21 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 22:00 </th>
+      <td align='right'> {{ medida_chancay_hora_22 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_22 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_22 }} </td>
+      <td align='right'> {{ medida_aporte_hora_22 }} </td>
+      <td align='right'> {{ medida_descarga_hora_22 }} </td>
+      <td align='right'> {{ medida_majin_hora_22 }} </td>
+      <td align='right'> {{ medida_upch_hora_22 }} </td>
+      <td align='right'> {{ medida_circulante_hora_22 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_22 }} </td>
+      <td align='right'> {{ medida_exceso_hora_22 }} </td>
+      <td align='right'> {{ medida_q_hora_22 }} </td>
+      <td align='right'> {{ medida_hm_hora_22 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 23:00 </th>
+      <td align='right'> {{ medida_chancay_hora_23 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_23 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_23 }} </td>
+      <td align='right'> {{ medida_aporte_hora_23 }} </td>
+      <td align='right'> {{ medida_descarga_hora_23 }} </td>
+      <td align='right'> {{ medida_majin_hora_23 }} </td>
+      <td align='right'> {{ medida_upch_hora_23 }} </td>
+      <td align='right'> {{ medida_circulante_hora_23 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_23 }} </td>
+      <td align='right'> {{ medida_exceso_hora_23 }} </td>
+      <td align='right'> {{ medida_q_hora_23 }} </td>
+      <td align='right'> {{ medida_hm_hora_23 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> 24:00 </th>
+      <td align='right'> {{ medida_chancay_hora_24 }} </td>
+      <td align='right'> {{ medida_compuerta_hora_24 }} </td>
+      <td align='right'> {{ medida_alimentador_hora_24 }} </td>
+      <td align='right'> {{ medida_aporte_hora_24 }} </td>
+      <td align='right'> {{ medida_descarga_hora_24 }} </td>
+      <td align='right'> {{ medida_majin_hora_24 }} </td>
+      <td align='right'> {{ medida_upch_hora_24 }} </td>
+      <td align='right'> {{ medida_circulante_hora_24 }} </td>
+      <td align='right'> {{ medida_puntilla_hora_24 }} </td>
+      <td align='right'> {{ medida_exceso_hora_24 }} </td>
+      <td align='right'> {{ medida_q_hora_24 }} </td>
+      <td align='right'> {{ medida_hm_hora_24 }} </td>
+    </tr>
+    <tr>
+      <td colspan='13' align='center' >&nbsp;</td>
+    </tr>
+    <tr>
+      <th align='right'> P. d&iacute;a (m3/seg) </th>
+      <td align='right'> {{ promedio_chancay }} </td>
+      <td align='right'> {{ promedio_compuerta }} </td>
+      <td align='right'> {{ promedio_alimentador }} </td>
+      <td align='right'> {{ promedio_aporte }} </td>
+      <td align='right'> {{ promedio_descarga }} </td>
+      <td align='right'> {{ promedio_majin }} </td>
+      <td align='right'> {{ promedio_upch }} </td>
+      <td align='right'> {{ promedio_circulante }} </td>
+      <td align='right'> {{ promedio_puntilla }} </td>
+      <td align='right'> {{ promedio_exceso }} </td>
+      <td align='right'> {{ promedio_q }} </td>
+      <td align='right'> {{ promedio_hm }} </td>
+    </tr>
+    <tr>
+      <th align='right'> P. 6:00 </th>
+      <td align='right'> {{ promedio_chancay_hora_06 }} </td>
+      <td align='right'> {{ promedio_compuerta_hora_06 }} </td>
+      <td align='right'> {{ promedio_alimentador_hora_06 }} </td>
+      <td align='right'> {{ promedio_aporte_hora_06 }} </td>
+      <td align='right'> {{ promedio_descarga_hora_06 }} </td>
+      <td align='right'> {{ promedio_majin_hora_06 }} </td>
+      <td align='right'> {{ promedio_upch_hora_06 }} </td>
+      <td align='right'> {{ promedio_circulante_hora_06 }} </td>
+      <td align='right'> {{ promedio_puntilla_hora_06 }} </td>
+      <td align='right'> {{ promedio_exceso_hora_06 }} </td>
+      <td align='right'> {{ promedio_q_hora_06 }} </td>
+      <td align='right'> {{ promedio_hm_hora_06 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> P. 12:00 </th>
+      <td align='right'> {{ promedio_chancay_hora_12 }} </td>
+      <td align='right'> {{ promedio_compuerta_hora_12 }} </td>
+      <td align='right'> {{ promedio_alimentador_hora_12 }} </td>
+      <td align='right'> {{ promedio_aporte_hora_12 }} </td>
+      <td align='right'> {{ promedio_descarga_hora_12 }} </td>
+      <td align='right'> {{ promedio_majin_hora_12 }} </td>
+      <td align='right'> {{ promedio_upch_hora_12 }} </td>
+      <td align='right'> {{ promedio_circulante_hora_12 }} </td>
+      <td align='right'> {{ promedio_puntilla_hora_12 }} </td>
+      <td align='right'> {{ promedio_exceso_hora_12 }} </td>
+      <td align='right'> {{ promedio_q_hora_12 }} </td>
+      <td align='right'> {{ promedio_hm_hora_12 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> P. 18:00 </th>
+      <td align='right'> {{ promedio_chancay_hora_18 }} </td>
+      <td align='right'> {{ promedio_compuerta_hora_18 }} </td>
+      <td align='right'> {{ promedio_alimentador_hora_18 }} </td>
+      <td align='right'> {{ promedio_aporte_hora_18 }} </td>
+      <td align='right'> {{ promedio_descarga_hora_18 }} </td>
+      <td align='right'> {{ promedio_majin_hora_18 }} </td>
+      <td align='right'> {{ promedio_upch_hora_18 }} </td>
+      <td align='right'> {{ promedio_circulante_hora_18 }} </td>
+      <td align='right'> {{ promedio_puntilla_hora_18 }} </td>
+      <td align='right'> {{ promedio_exceso_hora_18 }} </td>
+      <td align='right'> {{ promedio_q_hora_18 }} </td>
+      <td align='right'> {{ promedio_hm_hora_18 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> P. 24:00 </th>
+      <td align='right'> {{ promedio_chancay_hora_24 }} </td>
+      <td align='right'> {{ promedio_compuerta_hora_24 }} </td>
+      <td align='right'> {{ promedio_alimentador_hora_24 }} </td>
+      <td align='right'> {{ promedio_aporte_hora_24 }} </td>
+      <td align='right'> {{ promedio_descarga_hora_24 }} </td>
+      <td align='right'> {{ promedio_majin_hora_24 }} </td>
+      <td align='right'> {{ promedio_upch_hora_24 }} </td>
+      <td align='right'> {{ promedio_circulante_hora_24 }} </td>
+      <td align='right'> {{ promedio_puntilla_hora_24 }} </td>
+      <td align='right'> {{ promedio_exceso_hora_24 }} </td>
+      <td align='right'> {{ promedio_q_hora_24 }} </td>
+      <td align='right'> {{ promedio_hm_hora_24 }} </td>
+    </tr>
+    <tr>
+      <th align='right'> Masa </th>
+      <td align='right'> {{ masa_chancay }} </td>
+      <td align='right'> {{ masa_compuerta }} </td>
+      <td align='right'> {{ masa_alimentador }} </td>
+      <td align='right'> {{ masa_aporte }} </td>
+      <td align='right'> {{ masa_descarga }} </td>
+      <td align='right'> {{ masa_majin }} </td>
+      <td align='right'> {{ masa_upch }} </td>
+      <td align='right'> {{ masa_circulante }} </td>
+      <td align='right'> {{ masa_puntilla}} </td>
+      <td align='right'> {{ masa_exceso }} </td>
+      <td align='right'> {{ masa_q }} </td>
+      <td align='right'> {{ masa_hm }} </td>
+    </tr>
+    <tr>
+      <th align='right'> Max </th>
+      <td align='right'> {{ max_chancay }} </td>
+      <td align='right'> {{ max_compuerta }} </td>
+      <td align='right'> {{ max_alimentador }} </td>
+      <td align='right'> {{ max_aporte }} </td>
+      <td align='right'> {{ max_descarga }} </td>
+      <td align='right'> {{ max_majin }} </td>
+      <td align='right'> {{ max_upch }} </td>
+      <td align='right'> {{ max_circulante }} </td>
+      <td align='right'> {{ max_puntilla}} </td>
+      <td align='right'> {{ max_exceso }} </td>
+      <td align='right'> {{ max_q }} </td>
+      <td align='right'> {{ max_hm }} </td>
+    </tr>
+    <tr>
+      <th align='right'> Min </th>
+      <td align='right'> {{ min_chancay }} </td>
+      <td align='right'> {{ min_compuerta }} </td>
+      <td align='right'> {{ min_alimentador }} </td>
+      <td align='right'> {{ min_aporte }} </td>
+      <td align='right'> {{ min_descarga }} </td>
+      <td align='right'> {{ min_majin }} </td>
+      <td align='right'> {{ min_upch }} </td>
+      <td align='right'> {{ min_circulante }} </td>
+      <td align='right'> {{ min_puntilla}} </td>
+      <td align='right'> {{ min_exceso }} </td>
+      <td align='right'> {{ min_q }} </td>
+      <td align='right'> {{ min_hm }} </td>
+    </tr>
+  </tbody>
+</table>
+<p align="center">&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+</head>
+
+<body>
+<table width="91%" height="80" border="0" align="center" cellpadding="2" cellspacing="2" id="tabinformacion">
+  <tr>
+    <td width="27%" height="60" nowrap="nowrap" scope="col"><h6 align="center"><img src="/home/erick/Django/proyecto/hidrologia/nuevo.jpg" width="60" height="60" /><br />
+      JUNTA DE USUARIOS<br />
+      CHANCAY-LAMBAYEQUE</h6></td>
+    <td width="46%" scope="col">&nbsp;</td>
+    <td width="27%" height="60" nowrap="nowrap" scope="col"><h6 align="center"><img src="/home/erick/Django/proyecto/hidrologia/operaciones.jpg" width="60" height="60"/><br />
+      OPERACIÓN Y MANTENIMIENTO<br />
+      SISTEMA MAYOR</h6></td>
+  </tr>
+</table>
+<hr />
+<h1 align="center">Balance del Reservorio</h1>
+<p align="right">Fecha: {{ radiograma.fecha}}</p>
+<table width="295" border="1" align="center" cellpadding="2" cellspacing="2">
+  <tr>
+    <td colspan="2"><p align="right">&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td width="171">ingresa alimentador</td>
+    <td width="91">{{ balance_alimentador }}</td>
+  </tr>
+  <tr>
+    <td>sale descarga</td>
+    <td>{{ balance_descarga }}</td>
+  </tr>
+  <tr>
+    <td>sale maj&iacute;n+chongoyape</td>
+    <td>{{ balance_majin }}</td>
+  </tr>
+  <tr>
+    <td>filt -evap</td>
+    <td>{{ balance_filtro }}</td>
+  </tr>
+  <tr>
+    <td>volumen incre. &oacute; Dismi.</td>
+    <td>{{ balance_volumen }} &nbsp; m3</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>{{ balance_volumen_metros }}m3/s</td>
+  </tr>
+  <tr>
+    <td>vol te&oacute;rico</td>
+    <td>{{ balance_valor_teorico }}</td>
+  </tr>
+  <tr>
+    <td>Dias del mes</td>
+    <td>Este mes trae {{ balance_numero_dias_total_mes }} d&iacute;as y faltan {{ balance_numero_dias_restantes }} d&iacute;as</td>
+  </tr>
+  <tr>
+    <td>Increm. O dismin a fin de mes</td>
+    <td>{{ balance_variacion_mes }}</td>
+  </tr>
+  <tr>
+    <td>Eº del reservorio fin de mes</td>
+    <td>{{ balance_reservorio_proyectado_mensual }}</td>
+  </tr>
+  <tr>
+    <td>dif. Volumenes</td>
+    <td>{{ balance_diferencia_volumenes }} &nbsp; m3</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>{{ balance_diferencia_volumenes_metros }}&nbsp; m3/s</td>
+  </tr>
+  <tr>
+    <th><p align="center">VARIACION NIVEL</p></th>
+    <td>{{  balance_variacion_nivel }}&nbsp; mm</td>
+  </tr>
+</table>
+<p align="center">&nbsp;</p>
+</body>
+</html>
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Resumen Mensual - Rio Chancay </title>
+</head>
+
+<body>
+<table width="91%" height="80" border="0" align="center" cellpadding="2" cellspacing="2" id="tabinformacion">
+  <tr>
+    <td width="27%" height="60" nowrap="nowrap" scope="col"><h6 align="center"><img src="/home/erick/Django/proyecto/hidrologia/nuevo.jpg" width="60" height="60" /><br />
+      JUNTA DE USUARIOS<br />
+      CHANCAY-LAMBAYEQUE</h6></td>
+    <td width="46%" scope="col">&nbsp;</td>
+    <td width="27%" height="60" nowrap="nowrap" scope="col"><h6 align="center"><img src="/home/erick/Django/proyecto/hidrologia/operaciones.jpg" width="60" height="60"/><br />
+      OPERACIÓN Y MANTENIMIENTO<br />
+      SISTEMA MAYOR</h6></td>
+  </tr>
+</table>
+<hr />
+<h1 align="center">Cuadro Resumen - Rio Chancay</h1>
+<p align="right">Mes:</p>
+<table width="45%" border="1" align="center" cellpadding="2" cellspacing="2" id="tabchonchano">
+  <tr>
+    <td width="80" scope="row"></td>
+    <td colspan="2">Chancay</td>
+    <td width="80">Mes:</td>
+    <td width="80">&nbsp;</td>
+  </tr>
+  <tr>
+    <th scope="row">&nbsp;</th>
+    <td width="80" colspan="2"><p align="center">APORTE DIARIO</p></td>
+    <td width="80" colspan="2"><p align="center">ACUMULADO</p></td>
+  </tr>
+  <tr>
+    <td width="80" scope="row"><p align="center">Días</p></td>
+    <td width="80"><p align="center">Caudal Promedio <br />(m³/s)</p></td>
+    <td width="80"><p align="center">Volumen<br />
+    (m³)</p></td>
+    <td><p align="center">Anual<br />
+    (m³/s)</p></td>
+    <td><p align="center">Campaña<br />
+    (m³)</p></td>
+  </tr>
+ {% for radiograma in radiogramas %}
+  <tr>
+    <th scope="row">{{ radiograma.dia }}</th>
+    <td><p align="right">{{ radiograma.ch_promedio }}</p></td>
+    <td><p align="right">{{ radiograma.ch_promedio_volumen }}</p></td>
+    <td><p align="right">&nbsp;</p></td>
+    <td><p align="right">&nbsp;</p></td>
+  </tr>
+{% endfor %}
+  <tr>
+    <th colspan="5" scope="row">&nbsp;</th>
+  </tr>
+  <tr>
+    <td scope="row">Suma:</td>
+    <td><p align="right">&nbsp;</p></td>
+    <td><p align="right">&nbsp;</p></td>
+    <td><p align="right">&nbsp;</p></td>
+    <td><p align="right">&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td scope="row"><p>Promedio:</p></td>
+    <td><p align="right">&nbsp;</p></td>
+    <td><p align="right">&nbsp;</p></td>
+    <td><p align="right">&nbsp;</p></td>
+    <td><p align="right">&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td scope="row">Acumulado:</td>
+    <td><p align="right">&nbsp;</p></td>
+    <td><p align="right">&nbsp;</p></td>
+    <td><p align="right">&nbsp;</p></td>
+    <td><p align="right">&nbsp;</p></td>
+  </tr>
+</table>
+</body>
+</html>
+

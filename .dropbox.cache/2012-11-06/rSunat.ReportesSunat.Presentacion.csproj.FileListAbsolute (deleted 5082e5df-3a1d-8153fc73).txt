@@ -1,0 +1,89 @@
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.Form1.resources
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.frmConsultarReporte.resources
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.Properties.Resources.resources
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.frmConsultarReporte.es-PE.resources
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Presentacion.exe.config
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Presentacion.exe
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Presentacion.pdb
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\es-PE\rSunat.ReportesSunat.Presentacion.resources.dll
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\itextsharp.dll
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.AccesoDatos.dll
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Entidades.dll
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.LogicadeNegocio.dll
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.AccesoDatos.pdb
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Entidades.pdb
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.LogicadeNegocio.pdb
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\es-PE\rSunat.ReportesSunat.Presentacion.resources.dll
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.exe
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.pdb
+C:\Users\erick.aurazo\Documents\Visual Studio 2010\Projects\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.frmBuscarCuenta.resources
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Presentacion.exe.config
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.exe
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.pdb
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.frmBuscarCuenta.resources
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.frmConsultarReporte.resources
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.Properties.Resources.resources
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.frmConsultarReporte.es-PE.resources
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Presentacion.exe
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Presentacion.pdb
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\es-PE\rSunat.ReportesSunat.Presentacion.resources.dll
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.AccesoDatos.dll
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Entidades.dll
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.LogicadeNegocio.dll
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.AccesoDatos.pdb
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Entidades.pdb
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.LogicadeNegocio.pdb
+C:\Users\henry.ruiz\Desktop\erick\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\es-PE\rSunat.ReportesSunat.Presentacion.resources.dll
+C:\Users\henry.ruiz\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Presentacion.exe.config
+C:\Users\henry.ruiz\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.exe
+C:\Users\henry.ruiz\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.pdb
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Presentacion.exe.config
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.exe
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.pdb
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Presentacion.exe
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Presentacion.pdb
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\es-PE\rSunat.ReportesSunat.Presentacion.resources.dll
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.AccesoDatos.dll
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Entidades.dll
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.LogicadeNegocio.dll
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.AccesoDatos.pdb
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Entidades.pdb
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.LogicadeNegocio.pdb
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.frmBuscarCuenta.resources
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.frmConsultarReporte.resources
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.Properties.Resources.resources
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.frmConsultarReporte.es-PE.resources
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\es-PE\rSunat.ReportesSunat.Presentacion.resources.dll
+C:\Users\erick.aurazo\Dropbox\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.frmRegistroComprasVentas.resources
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Presentacion.exe.config
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.exe
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.pdb
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Presentacion.exe
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Presentacion.pdb
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\es-PE\rSunat.ReportesSunat.Presentacion.resources.dll
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.AccesoDatos.dll
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Entidades.dll
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.LogicadeNegocio.dll
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.AccesoDatos.pdb
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.Entidades.pdb
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\bin\Debug\rSunat.ReportesSunat.LogicadeNegocio.pdb
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.frmBuscarCuenta.resources
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.frmConsultarReporte.resources
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.frmRegistroComprasVentas.resources
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.Properties.Resources.resources
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.frmConsultarReporte.es-PE.resources
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\es-PE\rSunat.ReportesSunat.Presentacion.resources.dll
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.MDImenu.resources
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\rSunar.ReportesSunar.AccesoaDatos\rSunat.ReportesSunat.Presentacion\obj\x86\Debug\rSunat.ReportesSunat.Presentacion.frmLibroKARDEX.resources

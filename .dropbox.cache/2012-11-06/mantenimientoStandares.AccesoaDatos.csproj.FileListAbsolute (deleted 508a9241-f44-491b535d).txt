@@ -1,0 +1,28 @@
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\bin\Debug\mantenimientoStandares.AccesoaDatos.exe
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\bin\Debug\mantenimientoStandares.AccesoaDatos.pdb
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\bin\Debug\mantenimientoStandares.Entidades.exe
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\bin\Debug\mantenimientoStandares.Entidades.pdb
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\obj\x86\Debug\mantenimientoStandares.AccesoaDatos.exe
+D:\Desarrollos Net\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\obj\x86\Debug\mantenimientoStandares.AccesoaDatos.pdb
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\bin\Debug\mantenimientoStandares.AccesoaDatos.exe
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\bin\Debug\mantenimientoStandares.AccesoaDatos.pdb
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\bin\Debug\mantenimientoStandares.Entidades.exe
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\bin\Debug\mantenimientoStandares.Entidades.pdb
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\obj\x86\Debug\mantenimientoStandares.AccesoaDatos.exe
+C:\Users\henry.ruiz\Dropbox\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\obj\x86\Debug\mantenimientoStandares.AccesoaDatos.pdb
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\bin\Debug\mantenimientoStandares.AccesoaDatos.exe
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\bin\Debug\mantenimientoStandares.AccesoaDatos.pdb
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\bin\Debug\mantenimientoStandares.Entidades.exe
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\bin\Debug\mantenimientoStandares.Entidades.pdb
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\obj\x86\Debug\mantenimientoStandares.AccesoaDatos.exe
+C:\Users\erick.aurazo\Dropbox\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\obj\x86\Debug\mantenimientoStandares.AccesoaDatos.pdb
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\bin\Debug\mantenimientoStandares.AccesoaDatos.exe
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\bin\Debug\mantenimientoStandares.AccesoaDatos.pdb
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\bin\Debug\mantenimientoStandares.Entidades.exe
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\bin\Debug\mantenimientoStandares.Entidades.pdb
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\obj\x86\Debug\mantenimientoStandares.AccesoaDatos.exe
+C:\Users\erick.aurazo\Dropbox\C# Proyectos\mantenimientoStandares\mantenimientoStandares.AccesoaDatos\obj\x86\Debug\mantenimientoStandares.AccesoaDatos.pdb

@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cuadro N° 01: Consolidado mensual de Medidas</title>
+</head>
+
+<body>
+<table width="91%" height="80" border="0" align="center" cellpadding="2" cellspacing="2" id="tabinformacion">
+  <tr>
+    <td width="27%" height="60" nowrap="nowrap" scope="col"><h6 align="center"><img src="/home/erick/Django/proyecto/hidrologia/nuevo.jpg" width="60" height="60" /><br />
+      JUNTA DE USUARIOS<br />
+    CHANCAY-LAMBAYEQUE</h6></td>
+    <td width="46%" scope="col">&nbsp;</td>
+    <td width="27%" height="60" nowrap="nowrap" scope="col"><h6 align="center"><img src="/home/erick/Django/proyecto/hidrologia/operaciones.jpg" width="60" height="60"/><br />
+      OPERACIÓN Y MANTENIMIENTO<br />
+SISTEMA MAYOR</h6></td>
+  </tr>
+</table>
+<hr />
+<h1 align="center">Consolidado Mensual - Medidas</h1>
+<p align="right">Mes: {{ radiograma.fecha }}</p>
+<table border='1' align='center' cellpadding='2' cellspacing='3'>
+  <tr>
+    <td>&nbsp;</td>
+    <td colspan="6"><p align="center">R&iacute;o Chancay</p></td>
+    <td>Quebradas</td>
+    <td colspan="2"><p align="center">Puntilla - Reque</p></td>
+    <td colspan="3"><p align="center">Bocatoma Monsefu Reque</p></td>
+  </tr>
+  <tr>
+    <td><p align="center">D&iacute;as</p></td>
+    <td><p align="center">Promedio</p></td>
+    <td><p align="center">Max Puntual</p></td>
+    <td><p align="center">Min Puntual</p></td>
+    <td><p align="center">Comp R&iacute;o</p></td>
+    <td><p align="center">C. Descarga</p></td>
+    <td><p align="center">C. Alimentador</p></td>
+    <td><p align="center">Promedio</p></td>
+    <td><p align="center">Promedio</p></td>
+    <td><p align="center">Max Puntual</p></td>
+    <td><p align="center">Exc Monsefu</p></td>
+    <td><p align="center">M&aacute;xima</p></td>
+    <td><p align="center">M&iacute;nima</p></td>
+  </tr>
+ {% for radiograma in radiogramas %}
+  <tr>
+    <td>{{ radiograma.dia }}</td>
+    <td>{{ radiograma.ch_promedio }}</td>
+    <td>{{ radiograma.ch_max }}</td>
+    <td>{{ radiograma.ch_min }}</td>
+    <td>{{ radiograma.ch_compuerta }}</td>
+    <td>{{ radiograma.ch_descarga }}</td>
+    <td>{{ radiograma.ch_alimentador }}</td>
+    <td>{{ radiograma.queb_promedio }}</td>
+    <td>{{ radiograma.punt_promedio }}</td>
+    <td>{{ radiograma.punt_max }}</td>
+    <td>{{ radiograma.boc_promedio}}</td>
+    <td>{{ radiograma.boc_max }}</td>
+    <td>{{ radiograma.boc_min }}</td>
+  </tr>
+{% endfor %}
+
+  <tr>
+    <td colspan="13">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Promedio (m3/seg)</td>
+{% for resultado in resultados %}
+    <td> {{ resultado.promedio }}</td>
+{% endfor %}
+  </tr>
+
+  <tr>
+    <td>Masa (MMM)</td>
+{% for resultado in resultados %}
+    <td>{{ resultado.masa }}</td>
+{% endfor %}
+  </tr>
+
+
+  <tr>
+    <td>Max (m3/seg)</td>
+{% for resultado in resultados %}
+    <td>{{ resultado.maxima }}</td>
+{% endfor %}
+  </tr>
+
+  <tr>
+    <td>Min (m3/seg)</td>
+{% for resultado in resultados %}
+    <td>{{ resultado.minima }}</td>
+{% endfor %}
+  </tr>
+</table>
+
+</body>
+</html>
+
